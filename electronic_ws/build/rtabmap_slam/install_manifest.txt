@@ -1,0 +1,5 @@
+/home/deepak/electronic_ws/install/rtabmap_slam/lib/librtabmap_slam_plugins.so
+/home/deepak/electronic_ws/install/rtabmap_slam/include/rtabmap_slam/CoreWrapper.h
+/home/deepak/electronic_ws/install/rtabmap_slam/include/rtabmap_slam/visibility.h
+/home/deepak/electronic_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/rtabmap_slamExport.cmake
+/home/deepak/electronic_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/rtabmap_slamExport-noconfig.cmake

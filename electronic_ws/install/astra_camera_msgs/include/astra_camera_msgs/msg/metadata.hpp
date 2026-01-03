@@ -1,0 +1,1 @@
+/home/deepak/electronic_ws/build/astra_camera_msgs/rosidl_generator_cpp/astra_camera_msgs/msg/metadata.hpp

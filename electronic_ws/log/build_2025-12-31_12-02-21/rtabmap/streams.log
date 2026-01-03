@@ -1,0 +1,45 @@
+[0.039s] Invoking command in '/home/deepak/electronic_ws/build/rtabmap': /usr/bin/cmake --build /home/deepak/electronic_ws/build/rtabmap -- -j8 -l8
+[0.299s] [  5%] Built target rtabmap_utilite
+[0.299s] [  6%] Built target res_tool
+[0.615s] [ 57%] Built target rtabmap_core
+[0.645s] [ 57%] [34m[1mAutomatic MOC and UIC for target rtabmap_gui[0m
+[0.651s] [ 58%] Built target imagesJoiner
+[0.659s] [ 59%] Built target camera
+[0.659s] [ 60%] Built target consoleApp
+[0.660s] [ 60%] Built target extractObject
+[0.660s] [ 61%] Built target stereoEval
+[0.666s] [ 61%] Built target rgbd_dataset
+[0.671s] [ 62%] Built target kitti_dataset
+[0.680s] [ 62%] Built target rtabmap_gui_autogen
+[0.692s] [ 62%] Built target recovery
+[0.696s] [ 62%] Built target euroc_dataset
+[0.708s] [ 65%] Built target reprocess
+[0.708s] [ 65%] Built target export
+[0.708s] [ 65%] Built target detectMoreLoopClosures
+[0.710s] [ 65%] Built target info
+[0.714s] [ 66%] Built target cleanupLocalGrids
+[0.720s] [ 67%] Built target globalBundleAdjustment
+[0.736s] [ 67%] Built target lidar_viewer
+[0.890s] [ 83%] Built target rtabmap_gui
+[0.937s] [ 84%] Built target report
+[0.938s] [ 87%] Built target epipolar_geometry
+[0.939s] [ 87%] Built target calibration
+[0.939s] [ 88%] Built target databaseViewer
+[0.939s] [ 89%] Built target odometryViewer
+[0.940s] [ 89%] Built target dataRecorder
+[0.941s] [ 90%] Built target rtabmap_app
+[0.951s] [ 91%] Built target rgbd_camera
+[0.960s] [ 92%] [34m[1mAutomatic MOC and UIC for target wifi_mapping[0m
+[0.960s] [ 93%] [34m[1mAutomatic MOC and UIC for target lidar_mapping[0m
+[0.961s] [ 93%] [34m[1mAutomatic MOC and UIC for target rgbd_mapping[0m
+[0.961s] [ 94%] [34m[1mAutomatic MOC and UIC for target noEventsExample[0m
+[0.979s] [ 94%] Built target lidar_mapping_autogen
+[0.979s] [ 94%] Built target wifi_mapping_autogen
+[0.980s] [ 94%] Built target bow_mapping
+[0.981s] [ 94%] Built target rgbd_mapping_autogen
+[0.982s] [ 94%] Built target noEventsExample_autogen
+[0.987s] [ 95%] Built target matcher
+[1.025s] [ 97%] Built target lidar_mapping
+[1.025s] [ 97%] Built target wifi_mapping
+[1.026s] [ 99%] Built target rgbd_mapping
+[1.026s] [100%] Built target noEventsExample

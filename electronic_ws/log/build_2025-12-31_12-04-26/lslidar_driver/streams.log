@@ -1,0 +1,153 @@
+[0.018s] Invoking command in '/home/deepak/electronic_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/deepak/electronic_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/electronic_ws/install/lslidar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/deepak/electronic_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deepak/electronic_ws/install/lslidar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/lslidar_driver
+[0.033s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.056s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.234s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.242s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.296s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.300s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.429s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.490s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.493s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.668s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.784s] -- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+[0.787s] -- Found lslidar_msgs: 5.1.1 (/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/cmake)
+[0.818s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+[0.835s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[0.858s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[0.994s] -- The imported target "vtkParseOGLExt" references the file
+[0.994s]    "/usr/bin/vtkParseOGLExt-7.1"
+[0.994s] but this file does not exist.  Possible reasons include:
+[0.994s] * The file was deleted, renamed, or moved to another location.
+[0.994s] * An install or uninstall procedure did not complete successfully.
+[0.994s] * The installation package was faulty and contained
+[0.994s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.994s] but not all the files it references.
+[0.994s] 
+[0.996s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.996s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.996s] but this file does not exist.  Possible reasons include:
+[0.996s] * The file was deleted, renamed, or moved to another location.
+[0.996s] * An install or uninstall procedure did not complete successfully.
+[0.996s] * The installation package was faulty and contained
+[0.996s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.996s] but not all the files it references.
+[0.997s] 
+[0.997s] -- The imported target "vtk" references the file
+[0.998s]    "/usr/bin/vtk"
+[0.998s] but this file does not exist.  Possible reasons include:
+[0.998s] * The file was deleted, renamed, or moved to another location.
+[0.998s] * An install or uninstall procedure did not complete successfully.
+[0.998s] * The installation package was faulty and contained
+[0.998s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.998s] but not all the files it references.
+[0.998s] 
+[0.999s] -- The imported target "pvtk" references the file
+[0.999s]    "/usr/bin/pvtk"
+[0.999s] but this file does not exist.  Possible reasons include:
+[0.999s] * The file was deleted, renamed, or moved to another location.
+[0.999s] * An install or uninstall procedure did not complete successfully.
+[0.999s] * The installation package was faulty and contained
+[0.999s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.999s] but not all the files it references.
+[0.999s] 
+[1.046s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.053s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[1.053s] ** WARNING ** io features related to pcap will be disabled
+[1.053s] ** WARNING ** io features related to png will be disabled
+[1.065s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[1.072s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.079s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[1.092s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[1.099s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.112s] -- looking for PCL_COMMON
+[1.112s] -- looking for PCL_KDTREE
+[1.113s] -- looking for PCL_OCTREE
+[1.113s] -- looking for PCL_SEARCH
+[1.114s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.115s] -- looking for PCL_FILTERS
+[1.115s] -- looking for PCL_2D
+[1.116s] -- looking for PCL_GEOMETRY
+[1.116s] -- looking for PCL_IO
+[1.117s] -- looking for PCL_FEATURES
+[1.118s] -- looking for PCL_ML
+[1.118s] -- looking for PCL_SEGMENTATION
+[1.119s] -- looking for PCL_VISUALIZATION
+[1.120s] -- looking for PCL_SURFACE
+[1.120s] -- looking for PCL_REGISTRATION
+[1.121s] -- looking for PCL_KEYPOINTS
+[1.122s] -- looking for PCL_TRACKING
+[1.122s] -- looking for PCL_RECOGNITION
+[1.123s] -- looking for PCL_STEREO
+[1.124s] -- looking for PCL_APPS
+[1.125s] -- looking for PCL_IN_HAND_SCANNER
+[1.125s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.126s] -- looking for PCL_OUTOFCORE
+[1.127s] -- looking for PCL_PEOPLE
+[1.129s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[1.430s] -- Configuring done
+[1.572s] -- Generating done
+[1.591s] -- Build files have been written to: /home/deepak/electronic_ws/build/lslidar_driver
+[1.604s] Invoked command in '/home/deepak/electronic_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/deepak/electronic_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/electronic_ws/install/lslidar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/deepak/electronic_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deepak/electronic_ws/install/lslidar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/lslidar_driver
+[1.607s] Invoking command in '/home/deepak/electronic_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/deepak/electronic_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/electronic_ws/install/lslidar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/deepak/electronic_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deepak/electronic_ws/install/lslidar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/deepak/electronic_ws/build/lslidar_driver -- -j8 -l8
+[1.697s] [ 81%] Built target lslidar_driver
+[1.739s] [100%] Built target lslidar_driver_node
+[1.749s] Invoked command in '/home/deepak/electronic_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/deepak/electronic_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/electronic_ws/install/lslidar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/deepak/electronic_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deepak/electronic_ws/install/lslidar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/deepak/electronic_ws/build/lslidar_driver -- -j8 -l8
+[1.753s] Invoking command in '/home/deepak/electronic_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/deepak/electronic_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/electronic_ws/install/lslidar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/deepak/electronic_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deepak/electronic_ws/install/lslidar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/deepak/electronic_ws/build/lslidar_driver
+[1.761s] -- Install configuration: "Release"
+[1.761s] -- Execute custom install script
+[1.762s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/lib/lslidar_driver/liblslidar_driver.a
+[1.762s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+[1.763s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/ThreadPool.h
+[1.764s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/data_acquisition_strategy.hpp
+[1.764s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/input.hpp
+[1.764s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/lsiosr.hpp
+[1.764s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/lslidar_ch_driver.hpp
+[1.765s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/lslidar_cx_driver.hpp
+[1.765s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/lslidar_device_info.hpp
+[1.765s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/lslidar_driver.hpp
+[1.765s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/lslidar_log.hpp
+[1.765s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/lslidar_ls_driver.hpp
+[1.766s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/lslidar_pointcloud.hpp
+[1.766s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/lslidar_services.hpp
+[1.766s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/lslidar_x10_driver.hpp
+[1.766s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/pointcloud_transform.hpp
+[1.768s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/config/filter_angle.yaml
+[1.769s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_ch.yaml
+[1.769s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_cx.yaml
+[1.769s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_cx_left.yaml
+[1.769s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_cx_right.yaml
+[1.770s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_ls.yaml
+[1.770s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_m10p.yaml
+[1.770s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_x10.yaml
+[1.770s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/config/network_setup.yaml
+[1.771s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar_ch.rviz
+[1.772s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar_cx.rviz
+[1.772s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar_ls.rviz
+[1.772s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar_x10.rviz
+[1.773s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_ch_launch.py
+[1.773s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_cx_launch.py
+[1.774s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+[1.774s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_ls_launch.py
+[1.774s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_m10.launch.py
+[1.774s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_x10_launch.py
+[1.775s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/environment/library_path.sh
+[1.775s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/environment/library_path.dsv
+[1.776s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+[1.776s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+[1.777s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+[1.777s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+[1.778s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+[1.778s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+[1.778s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+[1.779s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+[1.779s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+[1.779s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+[1.779s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/package.dsv
+[1.789s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+[1.789s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.790s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[1.790s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.791s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+[1.791s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+[1.791s] -- Up-to-date symlink: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/package.xml
+[1.794s] Invoked command in '/home/deepak/electronic_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/deepak/electronic_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/electronic_ws/install/lslidar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/deepak/electronic_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deepak/electronic_ws/install/lslidar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/deepak/electronic_ws/build/lslidar_driver

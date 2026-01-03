@@ -1,0 +1,19 @@
+[0.045s] Invoking command in '/home/deepak/electronic_ws/build/astra_camera_msgs': /usr/bin/cmake /home/deepak/electronic_ws/src/ros2_astra_camera/astra_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/astra_camera_msgs
+[0.289s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.289s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.289s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.289s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.289s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.289s] -- Configuring incomplete, errors occurred!
+[0.289s] See also "/home/deepak/electronic_ws/build/astra_camera_msgs/CMakeFiles/CMakeOutput.log".
+[0.289s] CMake Error at /opt/ros/foxy/share/rosidl_typesupport_c/cmake/get_used_typesupports.cmake:35 (message):
+[0.289s]   No 'rosidl_typesupport_c' found
+[0.289s] Call Stack (most recent call first):
+[0.289s]   /opt/ros/foxy/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake:8 (get_used_typesupports)
+[0.289s]   /opt/ros/foxy/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake:41 (include)
+[0.289s]   /opt/ros/foxy/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:21 (find_package)
+[0.289s]   /opt/ros/foxy/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+[0.289s]   CMakeLists.txt:10 (find_package)
+[0.289s] 
+[0.289s] 
+[0.345s] Invoked command in '/home/deepak/electronic_ws/build/astra_camera_msgs' returned '1': /usr/bin/cmake /home/deepak/electronic_ws/src/ros2_astra_camera/astra_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/astra_camera_msgs

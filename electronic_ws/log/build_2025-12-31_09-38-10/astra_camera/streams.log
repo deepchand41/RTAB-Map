@@ -1,0 +1,64 @@
+[0.020s] Invoking command in '/home/deepak/electronic_ws/build/astra_camera': AMENT_PREFIX_PATH=/home/deepak/electronic_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/electronic_ws/install/astra_camera_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/deepak/electronic_ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deepak/electronic_ws/install/astra_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/deepak/electronic_ws/src/ros2_astra_camera/astra_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/astra_camera
+[0.117s] -- The C compiler identification is GNU 9.4.0
+[0.204s] -- The CXX compiler identification is GNU 9.4.0
+[0.212s] -- Check for working C compiler: /usr/bin/cc
+[0.320s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.321s] -- Detecting C compiler ABI info
+[0.425s] -- Detecting C compiler ABI info - done
+[0.444s] -- Detecting C compile features
+[0.445s] -- Detecting C compile features - done
+[0.449s] -- Check for working CXX compiler: /usr/bin/c++
+[0.573s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.575s] -- Detecting CXX compiler ABI info
+[0.698s] -- Detecting CXX compiler ABI info - done
+[0.723s] -- Detecting CXX compile features
+[0.726s] -- Detecting CXX compile features - done
+[0.730s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.770s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.770s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.093s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.127s] -- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+[1.133s] -- Found astra_camera_msgs: 1.0.1 (/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake)
+[1.185s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.197s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.342s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.404s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.548s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.108s] -- Found camera_info_manager: 2.4.0 (/opt/ros/foxy/share/camera_info_manager/cmake)
+[2.310s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.314s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.315s] -- Looking for pthread.h
+[2.584s] -- Looking for pthread.h - found
+[2.585s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.976s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.976s] -- Looking for pthread_create in pthreads
+[3.308s] -- Looking for pthread_create in pthreads - not found
+[3.311s] -- Looking for pthread_create in pthread
+[3.688s] -- Looking for pthread_create in pthread - found
+[3.690s] -- Found Threads: TRUE  
+[4.223s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[4.434s] -- Found class_loader: 2.0.3 (/opt/ros/foxy/share/class_loader/cmake)
+[4.458s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[4.510s] -- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)
+[4.533s] -- Found image_geometry: 3.0.7 (/opt/ros/foxy/share/image_geometry/cmake)
+[4.585s] CMake Error at CMakeLists.txt:28 (find_package):
+[4.585s]   By not providing "Findimage_publisher.cmake" in CMAKE_MODULE_PATH this
+[4.585s]   project has asked CMake to find a package configuration file provided by
+[4.585s]   "image_publisher", but CMake did not find one.
+[4.585s] 
+[4.585s]   Could not find a package configuration file provided by "image_publisher"
+[4.585s]   with any of the following names:
+[4.586s] 
+[4.586s]     image_publisherConfig.cmake
+[4.586s]     image_publisher-config.cmake
+[4.586s] 
+[4.586s]   Add the installation prefix of "image_publisher" to CMAKE_PREFIX_PATH or
+[4.586s]   set "image_publisher_DIR" to a directory containing one of the above files.
+[4.586s]   If "image_publisher" provides a separate development package or SDK, be
+[4.586s]   sure it has been installed.
+[4.586s] 
+[4.586s] 
+[4.588s] -- Configuring incomplete, errors occurred!
+[4.588s] See also "/home/deepak/electronic_ws/build/astra_camera/CMakeFiles/CMakeOutput.log".
+[4.588s] See also "/home/deepak/electronic_ws/build/astra_camera/CMakeFiles/CMakeError.log".
+[4.627s] Invoked command in '/home/deepak/electronic_ws/build/astra_camera' returned '1': AMENT_PREFIX_PATH=/home/deepak/electronic_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/electronic_ws/install/astra_camera_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/deepak/electronic_ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deepak/electronic_ws/install/astra_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/deepak/electronic_ws/src/ros2_astra_camera/astra_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/astra_camera

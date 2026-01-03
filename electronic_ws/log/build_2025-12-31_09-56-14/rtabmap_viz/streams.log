@@ -1,0 +1,142 @@
+[0.054s] Invoking command in '/home/deepak/electronic_ws/build/rtabmap_viz': AMENT_PREFIX_PATH=/home/deepak/electronic_ws/install/rtabmap_sync:/home/deepak/electronic_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/electronic_ws/install/rtabmap_sync:/home/deepak/electronic_ws/install/rtabmap_conversions:/opt/ros/foxy:/home/deepak/electronic_ws/install/rtabmap_msgs:/home/deepak/electronic_ws/install/rtabmap LD_LIBRARY_PATH=/home/deepak/electronic_ws/install/rtabmap_sync/lib:/home/deepak/electronic_ws/install/rtabmap_conversions/lib:/home/deepak/electronic_ws/install/rtabmap_msgs/lib:/home/deepak/electronic_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/deepak/electronic_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/deepak/electronic_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/deepak/electronic_ws/install/rtabmap_msgs/lib/pkgconfig:/home/deepak/electronic_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/deepak/electronic_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/deepak/electronic_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/deepak/electronic_ws/install/rtabmap_msgs/share /usr/bin/cmake /home/deepak/electronic_ws/src/rtabmap_ros/rtabmap_viz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/rtabmap_viz
+[0.317s] -- The C compiler identification is GNU 9.4.0
+[0.426s] -- The CXX compiler identification is GNU 9.4.0
+[0.435s] -- Check for working C compiler: /usr/bin/cc
+[0.559s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.562s] -- Detecting C compiler ABI info
+[0.689s] -- Detecting C compiler ABI info - done
+[0.722s] -- Detecting C compile features
+[0.722s] -- Detecting C compile features - done
+[0.726s] -- Check for working CXX compiler: /usr/bin/c++
+[0.812s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.813s] -- Detecting CXX compiler ABI info
+[0.894s] -- Detecting CXX compiler ABI info - done
+[0.905s] -- Detecting CXX compile features
+[0.905s] -- Detecting CXX compile features - done
+[0.915s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.006s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.006s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.554s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.621s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[1.730s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.747s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.956s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.019s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.128s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.318s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.376s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.378s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.380s] -- Looking for pthread.h
+[2.451s] -- Looking for pthread.h - found
+[2.451s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.524s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.524s] -- Looking for pthread_create in pthreads
+[2.582s] -- Looking for pthread_create in pthreads - not found
+[2.583s] -- Looking for pthread_create in pthread
+[2.653s] -- Looking for pthread_create in pthread - found
+[2.654s] -- Found Threads: TRUE  
+[2.810s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[2.825s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.899s] -- Found rtabmap_msgs: 0.21.1 (/opt/ros/foxy/share/rtabmap_msgs/cmake)
+[3.035s] -- Found rtabmap_sync: 0.21.1 (/home/deepak/electronic_ws/install/rtabmap_sync/share/rtabmap_sync/cmake)
+[3.763s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[3.809s] -- Checking for module 'eigen3'
+[3.826s] --   Found eigen3, version 3.3.7
+[3.867s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[3.867s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[3.922s] -- Checking for module 'libusb-1.0'
+[3.939s] --   Found libusb-1.0, version 1.0.23
+[3.988s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[4.050s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[4.123s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[4.186s] -- The imported target "vtkParseOGLExt" references the file
+[4.186s]    "/usr/bin/vtkParseOGLExt-7.1"
+[4.186s] but this file does not exist.  Possible reasons include:
+[4.187s] * The file was deleted, renamed, or moved to another location.
+[4.187s] * An install or uninstall procedure did not complete successfully.
+[4.187s] * The installation package was faulty and contained
+[4.187s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.187s] but not all the files it references.
+[4.187s] 
+[4.187s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[4.187s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[4.187s] but this file does not exist.  Possible reasons include:
+[4.187s] * The file was deleted, renamed, or moved to another location.
+[4.187s] * An install or uninstall procedure did not complete successfully.
+[4.188s] * The installation package was faulty and contained
+[4.188s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.188s] but not all the files it references.
+[4.188s] 
+[4.188s] -- The imported target "vtk" references the file
+[4.188s]    "/usr/bin/vtk"
+[4.188s] but this file does not exist.  Possible reasons include:
+[4.188s] * The file was deleted, renamed, or moved to another location.
+[4.188s] * An install or uninstall procedure did not complete successfully.
+[4.188s] * The installation package was faulty and contained
+[4.188s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.188s] but not all the files it references.
+[4.188s] 
+[4.189s] -- The imported target "pvtk" references the file
+[4.189s]    "/usr/bin/pvtk"
+[4.189s] but this file does not exist.  Possible reasons include:
+[4.189s] * The file was deleted, renamed, or moved to another location.
+[4.189s] * An install or uninstall procedure did not complete successfully.
+[4.189s] * The installation package was faulty and contained
+[4.189s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.189s] but not all the files it references.
+[4.189s] 
+[4.204s] -- Found libusb-1.0: /usr/include  
+[4.221s] -- Checking for module 'flann'
+[4.238s] --   Found flann, version 1.9.1
+[4.279s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[4.298s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[4.298s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[4.329s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[4.336s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[4.350s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.351s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.353s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.354s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.356s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.358s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.359s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.360s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[4.362s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.364s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.366s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.367s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[4.368s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.370s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.371s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.692s] -- Configuring done
+[4.776s] -- Generating done
+[4.810s] -- Build files have been written to: /home/deepak/electronic_ws/build/rtabmap_viz
+[4.826s] Invoked command in '/home/deepak/electronic_ws/build/rtabmap_viz' returned '0': AMENT_PREFIX_PATH=/home/deepak/electronic_ws/install/rtabmap_sync:/home/deepak/electronic_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/electronic_ws/install/rtabmap_sync:/home/deepak/electronic_ws/install/rtabmap_conversions:/opt/ros/foxy:/home/deepak/electronic_ws/install/rtabmap_msgs:/home/deepak/electronic_ws/install/rtabmap LD_LIBRARY_PATH=/home/deepak/electronic_ws/install/rtabmap_sync/lib:/home/deepak/electronic_ws/install/rtabmap_conversions/lib:/home/deepak/electronic_ws/install/rtabmap_msgs/lib:/home/deepak/electronic_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/deepak/electronic_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/deepak/electronic_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/deepak/electronic_ws/install/rtabmap_msgs/lib/pkgconfig:/home/deepak/electronic_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/deepak/electronic_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/deepak/electronic_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/deepak/electronic_ws/install/rtabmap_msgs/share /usr/bin/cmake /home/deepak/electronic_ws/src/rtabmap_ros/rtabmap_viz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/rtabmap_viz
+[4.832s] Invoking command in '/home/deepak/electronic_ws/build/rtabmap_viz': AMENT_PREFIX_PATH=/home/deepak/electronic_ws/install/rtabmap_sync:/home/deepak/electronic_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/electronic_ws/install/rtabmap_sync:/home/deepak/electronic_ws/install/rtabmap_conversions:/opt/ros/foxy:/home/deepak/electronic_ws/install/rtabmap_msgs:/home/deepak/electronic_ws/install/rtabmap LD_LIBRARY_PATH=/home/deepak/electronic_ws/install/rtabmap_sync/lib:/home/deepak/electronic_ws/install/rtabmap_conversions/lib:/home/deepak/electronic_ws/install/rtabmap_msgs/lib:/home/deepak/electronic_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/deepak/electronic_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/deepak/electronic_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/deepak/electronic_ws/install/rtabmap_msgs/lib/pkgconfig:/home/deepak/electronic_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/deepak/electronic_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/deepak/electronic_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/deepak/electronic_ws/install/rtabmap_msgs/share /usr/bin/cmake --build /home/deepak/electronic_ws/build/rtabmap_viz -- -j8 -l8
+[4.876s] [35m[1mScanning dependencies of target rtabmap_viz[0m
+[5.080s] [ 25%] [32mBuilding CXX object CMakeFiles/rtabmap_viz.dir/src/GuiNode.cpp.o[0m
+[5.082s] [ 50%] [32mBuilding CXX object CMakeFiles/rtabmap_viz.dir/src/GuiWrapper.cpp.o[0m
+[5.082s] [ 75%] [32mBuilding CXX object CMakeFiles/rtabmap_viz.dir/src/PreferencesDialogROS.cpp.o[0m
+[33.330s] [100%] [32m[1mLinking CXX executable rtabmap_viz[0m
+[59.581s] [100%] Built target rtabmap_viz
+[59.736s] Invoked command in '/home/deepak/electronic_ws/build/rtabmap_viz' returned '0': AMENT_PREFIX_PATH=/home/deepak/electronic_ws/install/rtabmap_sync:/home/deepak/electronic_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/electronic_ws/install/rtabmap_sync:/home/deepak/electronic_ws/install/rtabmap_conversions:/opt/ros/foxy:/home/deepak/electronic_ws/install/rtabmap_msgs:/home/deepak/electronic_ws/install/rtabmap LD_LIBRARY_PATH=/home/deepak/electronic_ws/install/rtabmap_sync/lib:/home/deepak/electronic_ws/install/rtabmap_conversions/lib:/home/deepak/electronic_ws/install/rtabmap_msgs/lib:/home/deepak/electronic_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/deepak/electronic_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/deepak/electronic_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/deepak/electronic_ws/install/rtabmap_msgs/lib/pkgconfig:/home/deepak/electronic_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/deepak/electronic_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/deepak/electronic_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/deepak/electronic_ws/install/rtabmap_msgs/share /usr/bin/cmake --build /home/deepak/electronic_ws/build/rtabmap_viz -- -j8 -l8
+[59.814s] Invoking command in '/home/deepak/electronic_ws/build/rtabmap_viz': AMENT_PREFIX_PATH=/home/deepak/electronic_ws/install/rtabmap_sync:/home/deepak/electronic_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/electronic_ws/install/rtabmap_sync:/home/deepak/electronic_ws/install/rtabmap_conversions:/opt/ros/foxy:/home/deepak/electronic_ws/install/rtabmap_msgs:/home/deepak/electronic_ws/install/rtabmap LD_LIBRARY_PATH=/home/deepak/electronic_ws/install/rtabmap_sync/lib:/home/deepak/electronic_ws/install/rtabmap_conversions/lib:/home/deepak/electronic_ws/install/rtabmap_msgs/lib:/home/deepak/electronic_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/deepak/electronic_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/deepak/electronic_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/deepak/electronic_ws/install/rtabmap_msgs/lib/pkgconfig:/home/deepak/electronic_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/deepak/electronic_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/deepak/electronic_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/deepak/electronic_ws/install/rtabmap_msgs/share /usr/bin/cmake --install /home/deepak/electronic_ws/build/rtabmap_viz
+[59.833s] -- Install configuration: ""
+[59.834s] -- Execute custom install script
+[59.836s] -- Symlinking: /home/deepak/electronic_ws/install/rtabmap_viz/lib/rtabmap_viz/rtabmap_viz
+[59.848s] -- Symlinking: /home/deepak/electronic_ws/install/rtabmap_viz/share/ament_index/resource_index/package_run_dependencies/rtabmap_viz
+[59.860s] -- Symlinking: /home/deepak/electronic_ws/install/rtabmap_viz/share/ament_index/resource_index/parent_prefix_path/rtabmap_viz
+[59.873s] -- Symlinking: /home/deepak/electronic_ws/install/rtabmap_viz/share/rtabmap_viz/environment/ament_prefix_path.sh
+[59.884s] -- Symlinking: /home/deepak/electronic_ws/install/rtabmap_viz/share/rtabmap_viz/environment/ament_prefix_path.dsv
+[59.895s] -- Symlinking: /home/deepak/electronic_ws/install/rtabmap_viz/share/rtabmap_viz/environment/path.sh
+[59.906s] -- Symlinking: /home/deepak/electronic_ws/install/rtabmap_viz/share/rtabmap_viz/environment/path.dsv
+[59.916s] -- Symlinking: /home/deepak/electronic_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.bash
+[59.926s] -- Symlinking: /home/deepak/electronic_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.sh
+[59.936s] -- Symlinking: /home/deepak/electronic_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.zsh
+[59.947s] -- Symlinking: /home/deepak/electronic_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.dsv
+[59.957s] -- Symlinking: /home/deepak/electronic_ws/install/rtabmap_viz/share/rtabmap_viz/package.dsv
+[59.968s] -- Symlinking: /home/deepak/electronic_ws/install/rtabmap_viz/share/ament_index/resource_index/packages/rtabmap_viz
+[59.980s] -- Symlinking: /home/deepak/electronic_ws/install/rtabmap_viz/share/rtabmap_viz/cmake/rtabmap_vizConfig.cmake
+[59.990s] -- Symlinking: /home/deepak/electronic_ws/install/rtabmap_viz/share/rtabmap_viz/cmake/rtabmap_vizConfig-version.cmake
+[60.001s] -- Symlinking: /home/deepak/electronic_ws/install/rtabmap_viz/share/rtabmap_viz/package.xml
+[60.035s] Invoked command in '/home/deepak/electronic_ws/build/rtabmap_viz' returned '0': AMENT_PREFIX_PATH=/home/deepak/electronic_ws/install/rtabmap_sync:/home/deepak/electronic_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/electronic_ws/install/rtabmap_sync:/home/deepak/electronic_ws/install/rtabmap_conversions:/opt/ros/foxy:/home/deepak/electronic_ws/install/rtabmap_msgs:/home/deepak/electronic_ws/install/rtabmap LD_LIBRARY_PATH=/home/deepak/electronic_ws/install/rtabmap_sync/lib:/home/deepak/electronic_ws/install/rtabmap_conversions/lib:/home/deepak/electronic_ws/install/rtabmap_msgs/lib:/home/deepak/electronic_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/deepak/electronic_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/deepak/electronic_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/deepak/electronic_ws/install/rtabmap_msgs/lib/pkgconfig:/home/deepak/electronic_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/deepak/electronic_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/deepak/electronic_ws/install/rtabmap_msgs/lib/python3.8/site-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/deepak/electronic_ws/install/rtabmap_msgs/share /usr/bin/cmake --install /home/deepak/electronic_ws/build/rtabmap_viz

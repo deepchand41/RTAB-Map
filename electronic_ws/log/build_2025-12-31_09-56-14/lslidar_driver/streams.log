@@ -1,0 +1,76 @@
+[0.013s] Invoking command in '/home/deepak/electronic_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/deepak/electronic_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/electronic_ws/install/lslidar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/deepak/electronic_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deepak/electronic_ws/install/lslidar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/deepak/electronic_ws/build/lslidar_driver -- -j8 -l8
+[0.068s] [35m[1mScanning dependencies of target lslidar_driver[0m
+[0.301s] [ 18%] [32mBuilding CXX object CMakeFiles/lslidar_driver.dir/src/input.cpp.o[0m
+[0.301s] [ 18%] [32mBuilding CXX object CMakeFiles/lslidar_driver.dir/src/lsiosr.cpp.o[0m
+[0.307s] [ 27%] [32mBuilding CXX object CMakeFiles/lslidar_driver.dir/src/lslidar_ch_driver.cpp.o[0m
+[0.309s] [ 45%] [32mBuilding CXX object CMakeFiles/lslidar_driver.dir/src/lslidar_cx_driver.cpp.o[0m
+[0.309s] [ 45%] [32mBuilding CXX object CMakeFiles/lslidar_driver.dir/src/lslidar_ls_driver.cpp.o[0m
+[0.311s] [ 54%] [32mBuilding CXX object CMakeFiles/lslidar_driver.dir/src/lslidar_x10_driver.cpp.o[0m
+[0.312s] [ 63%] [32mBuilding CXX object CMakeFiles/lslidar_driver.dir/src/lslidar_services.cpp.o[0m
+[0.323s] [ 72%] [32mBuilding CXX object CMakeFiles/lslidar_driver.dir/src/lslidar_device_info.cpp.o[0m
+[81.009s] [ 81%] [32m[1mLinking CXX static library liblslidar_driver.a[0m
+[81.360s] [ 81%] Built target lslidar_driver
+[81.444s] [35m[1mScanning dependencies of target lslidar_driver_node[0m
+[81.764s] [ 90%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cpp.o[0m
+[105.511s] [100%] [32m[1mLinking CXX executable lslidar_driver_node[0m
+[107.302s] [100%] Built target lslidar_driver_node
+[107.380s] Invoked command in '/home/deepak/electronic_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/deepak/electronic_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/electronic_ws/install/lslidar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/deepak/electronic_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deepak/electronic_ws/install/lslidar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/deepak/electronic_ws/build/lslidar_driver -- -j8 -l8
+[107.392s] Invoking command in '/home/deepak/electronic_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/deepak/electronic_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/electronic_ws/install/lslidar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/deepak/electronic_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deepak/electronic_ws/install/lslidar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/deepak/electronic_ws/build/lslidar_driver
+[107.407s] -- Install configuration: "Release"
+[107.409s] -- Execute custom install script
+[107.410s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/lib/lslidar_driver/liblslidar_driver.a
+[107.424s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+[107.442s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/ThreadPool.h
+[107.456s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/data_acquisition_strategy.hpp
+[107.469s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/input.hpp
+[107.483s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/lsiosr.hpp
+[107.497s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/lslidar_ch_driver.hpp
+[107.514s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/lslidar_cx_driver.hpp
+[107.529s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/lslidar_device_info.hpp
+[107.542s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/lslidar_driver.hpp
+[107.557s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/lslidar_log.hpp
+[107.571s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/lslidar_ls_driver.hpp
+[107.586s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/lslidar_pointcloud.hpp
+[107.600s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/lslidar_services.hpp
+[107.611s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/lslidar_x10_driver.hpp
+[107.625s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/include/lslidar_driver/pointcloud_transform.hpp
+[107.645s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/config/filter_angle.yaml
+[107.657s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_ch.yaml
+[107.669s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_cx.yaml
+[107.683s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_cx_left.yaml
+[107.693s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_cx_right.yaml
+[107.702s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_ls.yaml
+[107.712s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_m10p.yaml
+[107.721s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/config/lslidar_x10.yaml
+[107.732s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/config/network_setup.yaml
+[107.746s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar_ch.rviz
+[107.757s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar_cx.rviz
+[107.769s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar_ls.rviz
+[107.785s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar_x10.rviz
+[107.808s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_ch_launch.py
+[107.825s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_cx_launch.py
+[107.842s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+[107.855s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_ls_launch.py
+[107.869s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_m10.launch.py
+[107.885s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_x10_launch.py
+[107.901s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/environment/library_path.sh
+[107.918s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/environment/library_path.dsv
+[107.938s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+[107.954s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+[107.967s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+[107.978s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+[107.990s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+[108.005s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+[108.015s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+[108.024s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+[108.037s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+[108.049s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+[108.064s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/package.dsv
+[108.078s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+[108.094s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[108.110s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[108.125s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[108.138s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+[108.151s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+[108.164s] -- Symlinking: /home/deepak/electronic_ws/install/lslidar_driver/share/lslidar_driver/package.xml
+[108.178s] Invoked command in '/home/deepak/electronic_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/deepak/electronic_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/electronic_ws/install/lslidar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/deepak/electronic_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deepak/electronic_ws/install/lslidar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/deepak/electronic_ws/build/lslidar_driver

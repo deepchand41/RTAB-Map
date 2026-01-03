@@ -1,0 +1,17 @@
+[0.035s] Invoking command in '/home/deepak/electronic_ws/build/backward_ros': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/deepak/electronic_ws/build/backward_ros -- -j8 -l8
+[0.088s] [ 33%] Built target backward_object
+[0.092s] [100%] Built target backward
+[0.104s] Invoked command in '/home/deepak/electronic_ws/build/backward_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/deepak/electronic_ws/build/backward_ros -- -j8 -l8
+[0.108s] Invoking command in '/home/deepak/electronic_ws/build/backward_ros': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/deepak/electronic_ws/build/backward_ros
+[0.119s] -- Install configuration: ""
+[0.122s] -- Up-to-date: /home/deepak/electronic_ws/install/backward_ros/lib/libbackward.so
+[0.122s] -- Up-to-date: /home/deepak/electronic_ws/install/backward_ros/include
+[0.122s] -- Up-to-date: /home/deepak/electronic_ws/install/backward_ros/include/backward_ros
+[0.122s] -- Up-to-date: /home/deepak/electronic_ws/install/backward_ros/include/backward_ros/backward.hpp
+[0.123s] -- Up-to-date: /home/deepak/electronic_ws/install/backward_ros/share/backward_ros/cmake
+[0.123s] -- Up-to-date: /home/deepak/electronic_ws/install/backward_ros/share/backward_ros/cmake/BackwardConfigAment.cmake
+[0.123s] -- Installing: /home/deepak/electronic_ws/install/backward_ros/share/backward_ros/cmake/BackwardConfig.cmake
+[0.124s] -- Up-to-date: /home/deepak/electronic_ws/install/backward_ros/share/backward_ros/package.xml
+[0.124s] -- Installing: /home/deepak/electronic_ws/install/backward_ros/share/backward_ros/cmake/BackwardConfig.cmake
+[0.124s] -- Up-to-date: /home/deepak/electronic_ws/install/backward_ros/share/backward_ros/cmake/backward_rosConfig.cmake
+[0.126s] Invoked command in '/home/deepak/electronic_ws/build/backward_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/deepak/electronic_ws/build/backward_ros

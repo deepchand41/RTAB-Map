@@ -1,0 +1,123 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rtabmap_msgs/msg/NodeData.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/Transform.idl"
+#include "rtabmap_msgs/msg/EnvSensor.idl"
+#include "rtabmap_msgs/msg/GPS.idl"
+#include "rtabmap_msgs/msg/GlobalDescriptor.idl"
+#include "rtabmap_msgs/msg/KeyPoint.idl"
+#include "rtabmap_msgs/msg/Point3f.idl"
+
+module rtabmap_msgs {
+  module msg {
+    struct NodeData {
+      int32 id;
+
+      int32 map_id;
+
+      int32 weight;
+
+      double stamp;
+
+      string label;
+
+      @verbatim (language="comment", text=
+        " Pose from odometry not corrected")
+      geometry_msgs::msg::Pose pose;
+
+      @verbatim (language="comment", text=
+        " Ground truth (optional)")
+      geometry_msgs::msg::Pose ground_truth_pose;
+
+      @verbatim (language="comment", text=
+        " GPS (optional)")
+      rtabmap_msgs::msg::GPS gps;
+
+      @verbatim (language="comment", text=
+        " compressed image in /camera_link frame" "\n"
+        " use rtabmap::util3d::uncompressImage() from \"rtabmap/core/util3d.h\"")
+      sequence<uint8> image;
+
+      @verbatim (language="comment", text=
+        " compressed depth image in /camera_link frame" "\n"
+        " use rtabmap::util3d::uncompressImage() from \"rtabmap/core/util3d.h\"")
+      sequence<uint8> depth;
+
+      @verbatim (language="comment", text=
+        " Camera models")
+      sequence<float> fx;
+
+      sequence<float> fy;
+
+      sequence<float> cx;
+
+      sequence<float> cy;
+
+      sequence<float> width;
+
+      sequence<float> height;
+
+      sequence<float> baseline;
+
+      @verbatim (language="comment", text=
+        " local transform (/base_link -> /camera_link)")
+      sequence<geometry_msgs::msg::Transform> local_transform;
+
+      @verbatim (language="comment", text=
+        " compressed 2D or 3D laser scan" "\n"
+        " use rtabmap::util3d::uncompressData() from \"rtabmap/core/util3d.h\"")
+      sequence<uint8> laser_scan;
+
+      int32 laser_scan_max_pts;
+
+      float laser_scan_max_range;
+
+      int32 laser_scan_format;
+
+      @verbatim (language="comment", text=
+        " local transform (/base_link -> /base_laser)")
+      geometry_msgs::msg::Transform laser_scan_local_transform;
+
+      @verbatim (language="comment", text=
+        " compressed user data" "\n"
+        " use rtabmap::util3d::uncompressData() from \"rtabmap/core/util3d.h\"")
+      sequence<uint8> user_data;
+
+      @verbatim (language="comment", text=
+        " compressed occupancy grid" "\n"
+        " use rtabmap::util3d::uncompressData() from \"rtabmap/core/util3d.h\"")
+      sequence<uint8> grid_ground;
+
+      sequence<uint8> grid_obstacles;
+
+      sequence<uint8> grid_empty_cells;
+
+      float grid_cell_size;
+
+      rtabmap_msgs::msg::Point3f grid_view_point;
+
+      @verbatim (language="comment", text=
+        " std::multimap<wordId, index>" "\n"
+        " std::vector<cv::Keypoint>" "\n"
+        " std::vector<cv::Point3f>")
+      sequence<int32> word_id_keys;
+
+      sequence<int32> word_id_values;
+
+      sequence<rtabmap_msgs::msg::KeyPoint> word_kpts;
+
+      sequence<rtabmap_msgs::msg::Point3f> word_pts;
+
+      @verbatim (language="comment", text=
+        " compressed descriptors" "\n"
+        " use rtabmap::util3d::uncompressData() from \"rtabmap/core/util3d.h\"")
+      sequence<uint8> word_descriptors;
+
+      sequence<rtabmap_msgs::msg::GlobalDescriptor> global_descriptors;
+
+      sequence<rtabmap_msgs::msg::EnvSensor> env_sensors;
+    };
+  };
+};

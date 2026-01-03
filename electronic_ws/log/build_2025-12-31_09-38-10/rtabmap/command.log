@@ -1,0 +1,3 @@
+Invoking command in '/home/deepak/electronic_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/deepak/electronic_ws/src/rtabmap -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/rtabmap
+Invoked command in '/home/deepak/electronic_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/deepak/electronic_ws/src/rtabmap -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/rtabmap
+Invoking command in '/home/deepak/electronic_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/deepak/electronic_ws/build/rtabmap -- -j8 -l8

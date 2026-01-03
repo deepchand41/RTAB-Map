@@ -1,0 +1,346 @@
+[  5%] Built target rtabmap_utilite
+[  6%] Built target res_tool
+[ 57%] Built target rtabmap_core
+[ 57%] [34m[1mAutomatic MOC and UIC for target rtabmap_gui[0m
+[ 58%] Built target imagesJoiner
+[ 58%] Built target consoleApp
+[ 60%] Built target camera
+[ 60%] Built target extractObject
+[ 61%] Built target stereoEval
+[ 61%] Built target rgbd_dataset
+[ 61%] Built target rtabmap_gui_autogen
+[ 62%] Built target kitti_dataset
+[ 62%] Built target recovery
+[ 62%] Built target euroc_dataset
+[ 64%] Built target reprocess
+[ 64%] Built target detectMoreLoopClosures
+[ 65%] Built target export
+[ 65%] Built target info
+[ 66%] Built target cleanupLocalGrids
+[ 67%] Built target globalBundleAdjustment
+[ 67%] Built target lidar_viewer
+[ 83%] Built target rtabmap_gui
+[ 84%] Built target epipolar_geometry
+[ 85%] Built target calibration
+[ 86%] Built target databaseViewer
+[ 87%] Built target report
+[ 88%] Built target dataRecorder
+[ 89%] Built target rtabmap_app
+[ 90%] Built target rgbd_camera
+[ 91%] Built target odometryViewer
+[ 91%] [34m[1mAutomatic MOC and UIC for target rgbd_mapping[0m
+[ 92%] [34m[1mAutomatic MOC and UIC for target wifi_mapping[0m
+[ 94%] [34m[1mAutomatic MOC and UIC for target noEventsExample[0m
+[ 94%] [34m[1mAutomatic MOC and UIC for target lidar_mapping[0m
+[ 94%] Built target bow_mapping
+[ 94%] Built target rgbd_mapping_autogen
+[ 94%] Built target wifi_mapping_autogen
+[ 95%] Built target matcher
+[ 95%] Built target lidar_mapping_autogen
+[ 95%] Built target noEventsExample_autogen
+[ 96%] Built target wifi_mapping
+[ 97%] Built target lidar_mapping
+[ 99%] Built target rgbd_mapping
+[100%] Built target noEventsExample
+-- Install configuration: "Release"
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/lib/librtabmap_utilite.so.0.23.3
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/lib/librtabmap_utilite.so.0.23
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/lib/librtabmap_utilite.so
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/UException.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/UtiLite.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/UEventsManager.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/ULogger.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/UVariant.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/UEvent.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/UConversion.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/UThreadNode.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/UEventsSender.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/UEventsHandler.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/UTimer.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/UDirectory.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/UMath.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/Win32
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/Win32/UThreadC.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/Win32/UWin32.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/UProcessInfo.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/UThreadC.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/UStl.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/UObjDeletionThread.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/UFile.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/UDestroyer.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/USemaphore.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/Posix
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/Posix/UThreadC.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/UMutex.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/UThread.h
+-- Up-to-date: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap
+-- Up-to-date: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/utilite_export.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/lib/rtabmap-0.23/RTABMap_utiliteTargets.cmake
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/lib/rtabmap-0.23/RTABMap_utiliteTargets-release.cmake
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-res_tool-0.3.0
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-res_tool
+-- Set runtime path of "/home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-res_tool-0.3.0" to ""
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/lib/librtabmap_core.so.0.23.3
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/lib/librtabmap_core.so.0.23
+-- Set runtime path of "/home/deepak/electronic_ws/install/rtabmap/lib/librtabmap_core.so.0.23.3" to ""
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/lib/librtabmap_core.so
+-- Up-to-date: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/odometry
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/odometry/OdometryF2F.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/odometry/OdometryVINS.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/odometry/OdometryFovis.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/odometry/OdometryLOAM.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/odometry/OdometryMono.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/odometry/OdometryOkvis.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/odometry/OdometryF2M.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/odometry/OdometryFLOAM.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/odometry/OdometryCuVSLAM.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/odometry/OdometryMSCKF.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/odometry/OdometryORBSLAM2.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/odometry/OdometryViso2.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/odometry/OdometryORBSLAM3.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/odometry/OdometryVINSFusion.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/odometry/OdometryDVO.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/odometry/OdometryOpen3D.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/odometry/OdometryOpenVINS.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/Graph.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/util3d_surface.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/util3d_mapping.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/IMUFilter.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/Statistics.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/Recovery.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/RegistrationInfo.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/SensorCapture.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/SensorData.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/stereo
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/stereo/stereoRectifyFisheye.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/stereo/StereoBM.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/stereo/StereoSGBM.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/GlobalDescriptorExtractor.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/global_map
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/global_map/OccupancyGrid.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/global_map/GridMap.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/global_map/CloudMap.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/global_map/OctoMap.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/CameraModel.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/EnvSensor.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/DBDriverSqlite3.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/rvl_codec.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/FlannIndex.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/GlobalMap.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/util3d_features.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/DBDriver.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/Transform.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/ParamEvent.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/Landmark.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/CameraStereo.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/Parameters.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/CameraInfo.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/VWDictionary.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/RtabmapEvent.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/Features2d.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/DBReader.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/OccupancyGrid.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/GlobalDescriptor.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/RtabmapThread.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/Compression.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/RegistrationVis.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/util3d_motion_estimation.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/Lidar.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/ProgressState.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/LocalGridMaker.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/util3d_registration.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/EpipolarGeometry.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/LASWriter.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/CameraEvent.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/clams
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/clams/frame_projector.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/clams/slam_calibrator.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/clams/discrete_depth_distortion_model.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/lidar
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/lidar/LidarVLP16.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/util3d_transforms.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/GeodeticCoords.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/GPS.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/Image.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/RegistrationIcp.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/SensorCaptureThread.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/OdometryEvent.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/impl
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/impl/util3d_surface.hpp
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/impl/util3d_mapping.hpp
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/impl/util3d.hpp
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/impl/LocalMapMaker.hpp
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/Signature.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/MarkerDetector.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/OdometryThread.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/CameraRGB.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/Optimizer.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/util3d_filtering.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/util3d.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/SensorCaptureInfo.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/camera
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/camera/CameraOpenNI2.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/camera/CameraOpenni.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/camera/CameraMyntEye.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/camera/CameraOrbbecSDK.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/camera/CameraRealSense2.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/camera/CameraSeerSense.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/camera/CameraFreenect.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/camera/CameraRGBDImages.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/camera/CameraStereoTara.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/camera/CameraFreenect2.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/camera/CameraStereoImages.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/camera/CameraStereoZed.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/camera/CameraImages.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/camera/CameraStereoVideo.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/camera/CameraK4A.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/camera/CameraK4W2.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/camera/CameraStereoFlyCapture2.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/camera/CameraVideo.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/camera/CameraDepthAI.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/camera/CameraOpenNICV.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/camera/CameraStereoDC1394.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/camera/CameraStereoZedOC.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/camera/CameraRealSense.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/VisualWord.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/util2d.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/Camera.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/Memory.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/PythonInterface.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/StereoCameraModel.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/OdometryInfo.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/StereoDense.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/LaserScan.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/Rtabmap.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/Stereo.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/IMUThread.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/util3d_correspondences.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/CameraThread.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/LocalGrid.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/optimizer
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/optimizer/OptimizerTORO.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/optimizer/OptimizerCVSBA.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/optimizer/OptimizerGTSAM.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/optimizer/OptimizerG2O.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/optimizer/OptimizerCeres.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/BayesFilter.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/OctoMap.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/GainCompensator.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/Registration.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/SensorEvent.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/ParticleFilter.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/UserDataEvent.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/IMU.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/Link.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/Odometry.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/CameraRGBD.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/PDALWriter.h
+-- Up-to-date: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap
+-- Up-to-date: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/Version.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/core/rtabmap_core_export.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/lib/rtabmap-0.23/RTABMap_coreTargets.cmake
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/lib/rtabmap-0.23/RTABMap_coreTargets-release.cmake
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/lib/librtabmap_gui.so.0.23.3
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/lib/librtabmap_gui.so.0.23
+-- Set runtime path of "/home/deepak/electronic_ws/install/rtabmap/lib/librtabmap_gui.so.0.23.3" to ""
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/lib/librtabmap_gui.so
+-- Up-to-date: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap
+-- Up-to-date: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/UImageView.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/UCv2Qt.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/utilite/UPlot.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/RecoveryState.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/PreferencesDialog.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/ExportCloudsDialog.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/DatabaseViewer.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/ConsoleWidget.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/ProgressDialog.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/TexturingState.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/CameraViewer.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/CalibrationDialog.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/CloudViewerInteractorStyle.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/MultiSessionLocWidget.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/LoopClosureViewer.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/CreateSimpleCalibrationDialog.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/DepthCalibrationDialog.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/LinkRefiningDialog.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/ExportDialog.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/ParametersToolBox.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/DataRecorder.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/KeypointItem.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/EditConstraintDialog.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/PointCloudColorHandlerIntensityField.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/CloudViewerCellPicker.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/ExportBundlerDialog.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/OdometryViewer.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/GraphViewer.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/AboutDialog.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/CloudViewer.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/EditDepthArea.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/MapVisibilityWidget.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/MultiSessionLocSubView.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/PdfPlot.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/ImageView.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/EditMapArea.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/StatsToolBox.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/MainWindow.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/PointCloudColorHandlerMinMaxGenericField.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/PostProcessingDialog.h
+-- Up-to-date: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap
+-- Up-to-date: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/include/rtabmap-0.23/rtabmap/gui/rtabmap_gui_export.h
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/lib/rtabmap-0.23/RTABMap_guiTargets.cmake
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/lib/rtabmap-0.23/RTABMap_guiTargets-release.cmake
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/bin/rtabmap
+-- Set runtime path of "/home/deepak/electronic_ws/install/rtabmap/bin/rtabmap" to ""
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-console
+-- Set runtime path of "/home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-console" to ""
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-extractObject
+-- Set runtime path of "/home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-extractObject" to ""
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-camera
+-- Set runtime path of "/home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-camera" to ""
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-kitti_dataset
+-- Set runtime path of "/home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-kitti_dataset" to ""
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-rgbd_dataset
+-- Set runtime path of "/home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-rgbd_dataset" to ""
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-euroc_dataset
+-- Set runtime path of "/home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-euroc_dataset" to ""
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-recovery
+-- Set runtime path of "/home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-recovery" to ""
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-reprocess
+-- Set runtime path of "/home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-reprocess" to ""
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-detectMoreLoopClosures
+-- Set runtime path of "/home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-detectMoreLoopClosures" to ""
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-export
+-- Set runtime path of "/home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-export" to ""
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-report
+-- Set runtime path of "/home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-report" to ""
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-info
+-- Set runtime path of "/home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-info" to ""
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-cleanupLocalGrids
+-- Set runtime path of "/home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-cleanupLocalGrids" to ""
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-globalBundleAdjustment
+-- Set runtime path of "/home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-globalBundleAdjustment" to ""
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-rgbd_camera
+-- Set runtime path of "/home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-rgbd_camera" to ""
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-lidar_viewer
+-- Set runtime path of "/home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-lidar_viewer" to ""
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-databaseViewer
+-- Set runtime path of "/home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-databaseViewer" to ""
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-odometryViewer
+-- Set runtime path of "/home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-odometryViewer" to ""
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-dataRecorder
+-- Set runtime path of "/home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-dataRecorder" to ""
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-calibration
+-- Set runtime path of "/home/deepak/electronic_ws/install/rtabmap/bin/rtabmap-calibration" to ""
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/lib/rtabmap-0.23/RTABMapTargets.cmake
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/lib/rtabmap-0.23/RTABMapConfig.cmake
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/lib/rtabmap-0.23/RTABMapConfigVersion.cmake
+-- Installing: /home/deepak/electronic_ws/install/rtabmap/share/rtabmap/package.xml

@@ -1,0 +1,48 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/deepak/electronic_ws/build/rtabmap_examples
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/deepak/electronic_ws/install/rtabmap_examples/share/rtabmap_examples/launch/config/euroc_left.yaml
+-- Symlinking: /home/deepak/electronic_ws/install/rtabmap_examples/share/rtabmap_examples/launch/config/euroc_right.yaml
+-- Symlinking: /home/deepak/electronic_ws/install/rtabmap_examples/share/rtabmap_examples/launch/euroc_datasets.launch.py
+-- Symlinking: /home/deepak/electronic_ws/install/rtabmap_examples/share/rtabmap_examples/launch/k4a.launch.py
+-- Symlinking: /home/deepak/electronic_ws/install/rtabmap_examples/share/rtabmap_examples/launch/realsense_d400.launch.py
+-- Symlinking: /home/deepak/electronic_ws/install/rtabmap_examples/share/rtabmap_examples/launch/realsense_d435i_color.launch.py
+-- Symlinking: /home/deepak/electronic_ws/install/rtabmap_examples/share/rtabmap_examples/launch/realsense_d435i_infra.launch.py
+-- Symlinking: /home/deepak/electronic_ws/install/rtabmap_examples/share/rtabmap_examples/launch/realsense_d435i_stereo.launch.py
+-- Symlinking: /home/deepak/electronic_ws/install/rtabmap_examples/share/rtabmap_examples/launch/rgbdslam_datasets.launch.py
+-- Symlinking: /home/deepak/electronic_ws/install/rtabmap_examples/share/rtabmap_examples/launch/vlp16.launch.py
+-- Symlinking: /home/deepak/electronic_ws/install/rtabmap_examples/share/ament_index/resource_index/package_run_dependencies/rtabmap_examples
+-- Symlinking: /home/deepak/electronic_ws/install/rtabmap_examples/share/ament_index/resource_index/parent_prefix_path/rtabmap_examples
+-- Symlinking: /home/deepak/electronic_ws/install/rtabmap_examples/share/rtabmap_examples/environment/ament_prefix_path.sh
+-- Symlinking: /home/deepak/electronic_ws/install/rtabmap_examples/share/rtabmap_examples/environment/ament_prefix_path.dsv
+-- Symlinking: /home/deepak/electronic_ws/install/rtabmap_examples/share/rtabmap_examples/environment/path.sh
+-- Symlinking: /home/deepak/electronic_ws/install/rtabmap_examples/share/rtabmap_examples/environment/path.dsv
+-- Symlinking: /home/deepak/electronic_ws/install/rtabmap_examples/share/rtabmap_examples/local_setup.bash
+-- Symlinking: /home/deepak/electronic_ws/install/rtabmap_examples/share/rtabmap_examples/local_setup.sh
+-- Symlinking: /home/deepak/electronic_ws/install/rtabmap_examples/share/rtabmap_examples/local_setup.zsh
+-- Symlinking: /home/deepak/electronic_ws/install/rtabmap_examples/share/rtabmap_examples/local_setup.dsv
+-- Symlinking: /home/deepak/electronic_ws/install/rtabmap_examples/share/rtabmap_examples/package.dsv
+-- Symlinking: /home/deepak/electronic_ws/install/rtabmap_examples/share/ament_index/resource_index/packages/rtabmap_examples
+-- Symlinking: /home/deepak/electronic_ws/install/rtabmap_examples/share/rtabmap_examples/cmake/rtabmap_examplesConfig.cmake
+-- Symlinking: /home/deepak/electronic_ws/install/rtabmap_examples/share/rtabmap_examples/cmake/rtabmap_examplesConfig-version.cmake
+-- Symlinking: /home/deepak/electronic_ws/install/rtabmap_examples/share/rtabmap_examples/package.xml

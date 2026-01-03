@@ -1,0 +1,8 @@
+/home/deepak/electronic_ws/install/rtabmap_sync/lib/librtabmap_sync.so
+/home/deepak/electronic_ws/install/rtabmap_sync/lib/librtabmap_sync_plugins.so
+/home/deepak/electronic_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriber.h
+/home/deepak/electronic_ws/install/rtabmap_sync/include/rtabmap_sync/GetTopicName.h
+/home/deepak/electronic_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriberDefines.h
+/home/deepak/electronic_ws/install/rtabmap_sync/include/rtabmap_sync/visibility.h
+/home/deepak/electronic_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport.cmake
+/home/deepak/electronic_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport-noconfig.cmake

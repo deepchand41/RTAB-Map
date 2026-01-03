@@ -1,0 +1,18 @@
+{
+  "package_name": "lslidar_msgs",
+  "non_idl_tuples": [
+    "/home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs:msg/LslidarInformation.msg",
+    "/home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs:msg/LslidarPacket.msg",
+    "/home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs:srv/AngleDistortionCorrection.srv",
+    "/home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs:srv/FrameRate.srv",
+    "/home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs:srv/InvalidData.srv",
+    "/home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs:srv/IpAndPort.srv",
+    "/home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs:srv/MotorControl.srv",
+    "/home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs:srv/MotorSpeed.srv",
+    "/home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs:srv/PowerControl.srv",
+    "/home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs:srv/RfdRemoval.srv",
+    "/home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs:srv/StandbyMode.srv",
+    "/home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs:srv/TailRemoval.srv",
+    "/home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs:srv/TimeMode.srv"
+  ]
+}

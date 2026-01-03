@@ -1,0 +1,1 @@
+/home/deepak/electronic_ws/src/rtabmap_ros/rtabmap_examples/launch/rgbdslam_datasets.launch.py

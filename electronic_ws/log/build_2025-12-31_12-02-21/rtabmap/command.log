@@ -1,0 +1,1 @@
+Invoking command in '/home/deepak/electronic_ws/build/rtabmap': /usr/bin/cmake --build /home/deepak/electronic_ws/build/rtabmap -- -j8 -l8

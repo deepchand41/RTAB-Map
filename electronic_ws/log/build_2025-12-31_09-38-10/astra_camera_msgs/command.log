@@ -1,0 +1,6 @@
+Invoking command in '/home/deepak/electronic_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/deepak/electronic_ws/src/ros2_astra_camera/astra_camera_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/astra_camera_msgs
+Invoked command in '/home/deepak/electronic_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/deepak/electronic_ws/src/ros2_astra_camera/astra_camera_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/astra_camera_msgs
+Invoking command in '/home/deepak/electronic_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/deepak/electronic_ws/build/astra_camera_msgs -- -j8 -l8
+Invoked command in '/home/deepak/electronic_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/deepak/electronic_ws/build/astra_camera_msgs -- -j8 -l8
+Invoking command in '/home/deepak/electronic_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/deepak/electronic_ws/build/astra_camera_msgs
+Invoked command in '/home/deepak/electronic_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/deepak/electronic_ws/build/astra_camera_msgs

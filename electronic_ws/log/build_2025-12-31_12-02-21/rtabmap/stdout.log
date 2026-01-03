@@ -1,0 +1,44 @@
+[  5%] Built target rtabmap_utilite
+[  6%] Built target res_tool
+[ 57%] Built target rtabmap_core
+[ 57%] [34m[1mAutomatic MOC and UIC for target rtabmap_gui[0m
+[ 58%] Built target imagesJoiner
+[ 59%] Built target camera
+[ 60%] Built target consoleApp
+[ 60%] Built target extractObject
+[ 61%] Built target stereoEval
+[ 61%] Built target rgbd_dataset
+[ 62%] Built target kitti_dataset
+[ 62%] Built target rtabmap_gui_autogen
+[ 62%] Built target recovery
+[ 62%] Built target euroc_dataset
+[ 65%] Built target reprocess
+[ 65%] Built target export
+[ 65%] Built target detectMoreLoopClosures
+[ 65%] Built target info
+[ 66%] Built target cleanupLocalGrids
+[ 67%] Built target globalBundleAdjustment
+[ 67%] Built target lidar_viewer
+[ 83%] Built target rtabmap_gui
+[ 84%] Built target report
+[ 87%] Built target epipolar_geometry
+[ 87%] Built target calibration
+[ 88%] Built target databaseViewer
+[ 89%] Built target odometryViewer
+[ 89%] Built target dataRecorder
+[ 90%] Built target rtabmap_app
+[ 91%] Built target rgbd_camera
+[ 92%] [34m[1mAutomatic MOC and UIC for target wifi_mapping[0m
+[ 93%] [34m[1mAutomatic MOC and UIC for target lidar_mapping[0m
+[ 93%] [34m[1mAutomatic MOC and UIC for target rgbd_mapping[0m
+[ 94%] [34m[1mAutomatic MOC and UIC for target noEventsExample[0m
+[ 94%] Built target lidar_mapping_autogen
+[ 94%] Built target wifi_mapping_autogen
+[ 94%] Built target bow_mapping
+[ 94%] Built target rgbd_mapping_autogen
+[ 94%] Built target noEventsExample_autogen
+[ 95%] Built target matcher
+[ 97%] Built target lidar_mapping
+[ 97%] Built target wifi_mapping
+[ 99%] Built target rgbd_mapping
+[100%] Built target noEventsExample

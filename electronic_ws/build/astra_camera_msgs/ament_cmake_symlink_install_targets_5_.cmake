@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/deepak/electronic_ws/build/astra_camera_msgs/rosidl_generator_py/astra_camera_msgs/libastra_camera_msgs__python.so" "TARGETS" "astra_camera_msgs__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

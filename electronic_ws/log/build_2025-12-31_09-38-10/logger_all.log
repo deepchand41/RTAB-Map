@@ -1,0 +1,1046 @@
+[0.772s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--parallel-workers', '3']
+[0.772s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7feffdc748b0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=3, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7feffdc748b0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7feffdc74e50>)
+[1.028s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.029s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.029s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.029s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.029s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.029s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.029s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/deepak/electronic_ws'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0) by extensions ['ignore', 'ignore_ament_install']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0) by extension 'ignore'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0) by extension 'ignore_ament_install'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0) by extensions ['colcon_pkg']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0) by extension 'colcon_pkg'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0) by extensions ['colcon_meta']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0) by extension 'colcon_meta'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0) by extensions ['ros']
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0) by extension 'ros'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0) by extensions ['cmake', 'python']
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0) by extension 'cmake'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0) by extension 'python'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0) by extensions ['python_setup_py']
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0) by extension 'python_setup_py'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_driver) by extension 'ignore'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_driver) by extension 'ignore_ament_install'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_driver) by extensions ['colcon_pkg']
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_driver) by extension 'colcon_pkg'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_driver) by extensions ['colcon_meta']
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_driver) by extension 'colcon_meta'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_driver) by extensions ['ros']
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_driver) by extension 'ros'
+[1.073s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_driver' with type 'ros.ament_cmake' and name 'lslidar_driver'
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs) by extension 'ignore'
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs) by extension 'ignore_ament_install'
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs) by extensions ['colcon_pkg']
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs) by extension 'colcon_pkg'
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs) by extensions ['colcon_meta']
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs) by extension 'colcon_meta'
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs) by extensions ['ros']
+[1.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs) by extension 'ros'
+[1.075s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs' with type 'ros.ament_cmake' and name 'lslidar_msgs'
+[1.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/backward_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/backward_ros) by extension 'ignore'
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/backward_ros) by extension 'ignore_ament_install'
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/backward_ros) by extensions ['colcon_pkg']
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/backward_ros) by extension 'colcon_pkg'
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/backward_ros) by extensions ['colcon_meta']
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/backward_ros) by extension 'colcon_meta'
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/backward_ros) by extensions ['ros']
+[1.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/backward_ros) by extension 'ros'
+[1.077s] DEBUG:colcon.colcon_core.package_identification:Package 'src/backward_ros' with type 'ros.cmake' and name 'backward_ros'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['ignore', 'ignore_ament_install']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'ignore'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'ignore_ament_install'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['colcon_pkg']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'colcon_pkg'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['colcon_meta']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'colcon_meta'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['ros']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'ros'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['cmake', 'python']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'cmake'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'python'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extensions ['python_setup_py']
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera) by extension 'python_setup_py'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['ignore', 'ignore_ament_install']
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'ignore'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'ignore_ament_install'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['colcon_pkg']
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'colcon_pkg'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['colcon_meta']
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'colcon_meta'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extensions ['ros']
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera) by extension 'ros'
+[1.083s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_astra_camera/astra_camera' with type 'ros.ament_cmake' and name 'astra_camera'
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'ignore'
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'ignore_ament_install'
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['colcon_pkg']
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'colcon_pkg'
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['colcon_meta']
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'colcon_meta'
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extensions ['ros']
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_astra_camera/astra_camera_msgs) by extension 'ros'
+[1.086s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_astra_camera/astra_camera_msgs' with type 'ros.ament_cmake' and name 'astra_camera_msgs'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extensions ['ignore', 'ignore_ament_install']
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extension 'ignore'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extension 'ignore_ament_install'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extensions ['colcon_pkg']
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extension 'colcon_pkg'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extensions ['colcon_meta']
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extension 'colcon_meta'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extensions ['ros']
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extension 'ros'
+[1.088s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rtabmap' with type 'ros.cmake' and name 'rtabmap'
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros) by extension 'ignore'
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros) by extension 'ignore_ament_install'
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros) by extensions ['colcon_pkg']
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros) by extension 'colcon_pkg'
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros) by extensions ['colcon_meta']
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros) by extension 'colcon_meta'
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros) by extensions ['ros']
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros) by extension 'ros'
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros) by extensions ['cmake', 'python']
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros) by extension 'cmake'
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros) by extension 'python'
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros) by extensions ['python_setup_py']
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros) by extension 'python_setup_py'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker) by extensions ['ignore', 'ignore_ament_install']
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker) by extension 'ignore'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker) by extension 'ignore_ament_install'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker) by extensions ['colcon_pkg']
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker) by extension 'colcon_pkg'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker) by extensions ['colcon_meta']
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker) by extension 'colcon_meta'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker) by extensions ['ros']
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker) by extension 'ros'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker) by extensions ['cmake', 'python']
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker) by extension 'cmake'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker) by extension 'python'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker) by extensions ['python_setup_py']
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker) by extension 'python_setup_py'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy) by extensions ['ignore', 'ignore_ament_install']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy) by extension 'ignore'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy) by extension 'ignore_ament_install'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy) by extensions ['colcon_pkg']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy) by extension 'colcon_pkg'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy) by extensions ['colcon_meta']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy) by extension 'colcon_meta'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy) by extensions ['ros']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy) by extension 'ros'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy) by extensions ['cmake', 'python']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy) by extension 'cmake'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy) by extension 'python'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy) by extensions ['python_setup_py']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy) by extension 'python_setup_py'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest) by extensions ['ignore', 'ignore_ament_install']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest) by extension 'ignore'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest) by extension 'ignore_ament_install'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest) by extensions ['colcon_pkg']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest) by extension 'colcon_pkg'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest) by extensions ['colcon_meta']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest) by extension 'colcon_meta'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest) by extensions ['ros']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest) by extension 'ros'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest) by extensions ['cmake', 'python']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest) by extension 'cmake'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest) by extension 'python'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest) by extensions ['python_setup_py']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest) by extension 'python_setup_py'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest/hooks) by extensions ['ignore', 'ignore_ament_install']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest/hooks) by extension 'ignore'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest/hooks) by extension 'ignore_ament_install'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest/hooks) by extensions ['colcon_pkg']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest/hooks) by extension 'colcon_pkg'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest/hooks) by extensions ['colcon_meta']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest/hooks) by extension 'colcon_meta'
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest/hooks) by extensions ['ros']
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest/hooks) by extension 'ros'
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest/hooks) by extensions ['cmake', 'python']
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest/hooks) by extension 'cmake'
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest/hooks) by extension 'python'
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest/hooks) by extensions ['python_setup_py']
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/foxy/latest/hooks) by extension 'python_setup_py'
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble) by extensions ['ignore', 'ignore_ament_install']
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble) by extension 'ignore'
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble) by extension 'ignore_ament_install'
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble) by extensions ['colcon_pkg']
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble) by extension 'colcon_pkg'
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble) by extensions ['colcon_meta']
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble) by extension 'colcon_meta'
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble) by extensions ['ros']
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble) by extension 'ros'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble) by extensions ['cmake', 'python']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble) by extension 'cmake'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble) by extension 'python'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble) by extensions ['python_setup_py']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble) by extension 'python_setup_py'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest) by extensions ['ignore', 'ignore_ament_install']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest) by extension 'ignore'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest) by extension 'ignore_ament_install'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest) by extensions ['colcon_pkg']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest) by extension 'colcon_pkg'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest) by extensions ['colcon_meta']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest) by extension 'colcon_meta'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest) by extensions ['ros']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest) by extension 'ros'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest) by extensions ['cmake', 'python']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest) by extension 'cmake'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest) by extension 'python'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest) by extensions ['python_setup_py']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest) by extension 'python_setup_py'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest/hooks) by extensions ['ignore', 'ignore_ament_install']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest/hooks) by extension 'ignore'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest/hooks) by extension 'ignore_ament_install'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest/hooks) by extensions ['colcon_pkg']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest/hooks) by extension 'colcon_pkg'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest/hooks) by extensions ['colcon_meta']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest/hooks) by extension 'colcon_meta'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest/hooks) by extensions ['ros']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest/hooks) by extension 'ros'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest/hooks) by extensions ['cmake', 'python']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest/hooks) by extension 'cmake'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest/hooks) by extension 'python'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest/hooks) by extensions ['python_setup_py']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/humble/latest/hooks) by extension 'python_setup_py'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo) by extensions ['ignore', 'ignore_ament_install']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo) by extension 'ignore'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo) by extension 'ignore_ament_install'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo) by extensions ['colcon_pkg']
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo) by extension 'colcon_pkg'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo) by extensions ['colcon_meta']
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo) by extension 'colcon_meta'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo) by extensions ['ros']
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo) by extension 'ros'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo) by extensions ['cmake', 'python']
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo) by extension 'cmake'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo) by extension 'python'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo) by extensions ['python_setup_py']
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo) by extension 'python_setup_py'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest) by extensions ['ignore', 'ignore_ament_install']
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest) by extension 'ignore'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest) by extension 'ignore_ament_install'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest) by extensions ['colcon_pkg']
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest) by extension 'colcon_pkg'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest) by extensions ['colcon_meta']
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest) by extension 'colcon_meta'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest) by extensions ['ros']
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest) by extension 'ros'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest) by extensions ['cmake', 'python']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest) by extension 'cmake'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest) by extension 'python'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest) by extensions ['python_setup_py']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest) by extension 'python_setup_py'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest/hooks) by extensions ['ignore', 'ignore_ament_install']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest/hooks) by extension 'ignore'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest/hooks) by extension 'ignore_ament_install'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest/hooks) by extensions ['colcon_pkg']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest/hooks) by extension 'colcon_pkg'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest/hooks) by extensions ['colcon_meta']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest/hooks) by extension 'colcon_meta'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest/hooks) by extensions ['ros']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest/hooks) by extension 'ros'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest/hooks) by extensions ['cmake', 'python']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest/hooks) by extension 'cmake'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest/hooks) by extension 'python'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest/hooks) by extensions ['python_setup_py']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/indigo/latest/hooks) by extension 'python_setup_py'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic) by extensions ['ignore', 'ignore_ament_install']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic) by extension 'ignore'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic) by extension 'ignore_ament_install'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic) by extensions ['colcon_pkg']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic) by extension 'colcon_pkg'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic) by extensions ['colcon_meta']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic) by extension 'colcon_meta'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic) by extensions ['ros']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic) by extension 'ros'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic) by extensions ['cmake', 'python']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic) by extension 'cmake'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic) by extension 'python'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic) by extensions ['python_setup_py']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic) by extension 'python_setup_py'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest) by extensions ['ignore', 'ignore_ament_install']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest) by extension 'ignore'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest) by extension 'ignore_ament_install'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest) by extensions ['colcon_pkg']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest) by extension 'colcon_pkg'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest) by extensions ['colcon_meta']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest) by extension 'colcon_meta'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest) by extensions ['ros']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest) by extension 'ros'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest) by extensions ['cmake', 'python']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest) by extension 'cmake'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest) by extension 'python'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest) by extensions ['python_setup_py']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest) by extension 'python_setup_py'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest/hooks) by extensions ['ignore', 'ignore_ament_install']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest/hooks) by extension 'ignore'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest/hooks) by extension 'ignore_ament_install'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest/hooks) by extensions ['colcon_pkg']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest/hooks) by extension 'colcon_pkg'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest/hooks) by extensions ['colcon_meta']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest/hooks) by extension 'colcon_meta'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest/hooks) by extensions ['ros']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest/hooks) by extension 'ros'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest/hooks) by extensions ['cmake', 'python']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest/hooks) by extension 'cmake'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest/hooks) by extension 'python'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest/hooks) by extensions ['python_setup_py']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/kinetic/latest/hooks) by extension 'python_setup_py'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic) by extensions ['ignore', 'ignore_ament_install']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic) by extension 'ignore'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic) by extension 'ignore_ament_install'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic) by extensions ['colcon_pkg']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic) by extension 'colcon_pkg'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic) by extensions ['colcon_meta']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic) by extension 'colcon_meta'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic) by extensions ['ros']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic) by extension 'ros'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic) by extensions ['cmake', 'python']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic) by extension 'cmake'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic) by extension 'python'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic) by extensions ['python_setup_py']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic) by extension 'python_setup_py'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest) by extensions ['ignore', 'ignore_ament_install']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest) by extension 'ignore'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest) by extension 'ignore_ament_install'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest) by extensions ['colcon_pkg']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest) by extension 'colcon_pkg'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest) by extensions ['colcon_meta']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest) by extension 'colcon_meta'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest) by extensions ['ros']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest) by extension 'ros'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest) by extensions ['cmake', 'python']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest) by extension 'cmake'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest) by extension 'python'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest) by extensions ['python_setup_py']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest) by extension 'python_setup_py'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest/hooks) by extensions ['ignore', 'ignore_ament_install']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest/hooks) by extension 'ignore'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest/hooks) by extension 'ignore_ament_install'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest/hooks) by extensions ['colcon_pkg']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest/hooks) by extension 'colcon_pkg'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest/hooks) by extensions ['colcon_meta']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest/hooks) by extension 'colcon_meta'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest/hooks) by extensions ['ros']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest/hooks) by extension 'ros'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest/hooks) by extensions ['cmake', 'python']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest/hooks) by extension 'cmake'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest/hooks) by extension 'python'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest/hooks) by extensions ['python_setup_py']
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/melodic/latest/hooks) by extension 'python_setup_py'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic) by extensions ['ignore', 'ignore_ament_install']
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic) by extension 'ignore'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic) by extension 'ignore_ament_install'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic) by extensions ['colcon_pkg']
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic) by extension 'colcon_pkg'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic) by extensions ['colcon_meta']
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic) by extension 'colcon_meta'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic) by extensions ['ros']
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic) by extension 'ros'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic) by extensions ['cmake', 'python']
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic) by extension 'cmake'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic) by extension 'python'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic) by extensions ['python_setup_py']
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic) by extension 'python_setup_py'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest) by extensions ['ignore', 'ignore_ament_install']
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest) by extension 'ignore'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest) by extension 'ignore_ament_install'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest) by extensions ['colcon_pkg']
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest) by extension 'colcon_pkg'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest) by extensions ['colcon_meta']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest) by extension 'colcon_meta'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest) by extensions ['ros']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest) by extension 'ros'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest) by extensions ['cmake', 'python']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest) by extension 'cmake'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest) by extension 'python'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest) by extensions ['python_setup_py']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest) by extension 'python_setup_py'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest/hooks) by extensions ['ignore', 'ignore_ament_install']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest/hooks) by extension 'ignore'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest/hooks) by extension 'ignore_ament_install'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest/hooks) by extensions ['colcon_pkg']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest/hooks) by extension 'colcon_pkg'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest/hooks) by extensions ['colcon_meta']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest/hooks) by extension 'colcon_meta'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest/hooks) by extensions ['ros']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest/hooks) by extension 'ros'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest/hooks) by extensions ['cmake', 'python']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest/hooks) by extension 'cmake'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest/hooks) by extension 'python'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest/hooks) by extensions ['python_setup_py']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/docker/noetic/latest/hooks) by extension 'python_setup_py'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_conversions) by extensions ['ignore', 'ignore_ament_install']
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_conversions) by extension 'ignore'
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_conversions) by extension 'ignore_ament_install'
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_conversions) by extensions ['colcon_pkg']
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_conversions) by extension 'colcon_pkg'
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_conversions) by extensions ['colcon_meta']
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_conversions) by extension 'colcon_meta'
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_conversions) by extensions ['ros']
+[1.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_conversions) by extension 'ros'
+[1.105s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rtabmap_ros/rtabmap_conversions' with type 'ros.ament_cmake' and name 'rtabmap_conversions'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_demos) by extensions ['ignore', 'ignore_ament_install']
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_demos) by extension 'ignore'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_demos) by extension 'ignore_ament_install'
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_demos) by extensions ['colcon_pkg']
+[1.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_demos) by extension 'colcon_pkg'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_demos) by extensions ['colcon_meta']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_demos) by extension 'colcon_meta'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_demos) by extensions ['ros']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_demos) by extension 'ros'
+[1.106s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rtabmap_ros/rtabmap_demos' with type 'ros.ament_cmake' and name 'rtabmap_demos'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_examples) by extensions ['ignore', 'ignore_ament_install']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_examples) by extension 'ignore'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_examples) by extension 'ignore_ament_install'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_examples) by extensions ['colcon_pkg']
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_examples) by extension 'colcon_pkg'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_examples) by extensions ['colcon_meta']
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_examples) by extension 'colcon_meta'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_examples) by extensions ['ros']
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_examples) by extension 'ros'
+[1.107s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rtabmap_ros/rtabmap_examples' with type 'ros.ament_cmake' and name 'rtabmap_examples'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_launch) by extensions ['ignore', 'ignore_ament_install']
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_launch) by extension 'ignore'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_launch) by extension 'ignore_ament_install'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_launch) by extensions ['colcon_pkg']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_launch) by extension 'colcon_pkg'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_launch) by extensions ['colcon_meta']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_launch) by extension 'colcon_meta'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_launch) by extensions ['ros']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_launch) by extension 'ros'
+[1.108s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rtabmap_ros/rtabmap_launch' with type 'ros.ament_cmake' and name 'rtabmap_launch'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_msgs) by extension 'ignore'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_msgs) by extension 'ignore_ament_install'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_msgs) by extensions ['colcon_pkg']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_msgs) by extension 'colcon_pkg'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_msgs) by extensions ['colcon_meta']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_msgs) by extension 'colcon_meta'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_msgs) by extensions ['ros']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_msgs) by extension 'ros'
+[1.109s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rtabmap_ros/rtabmap_msgs' with type 'ros.catkin' and name 'rtabmap_msgs'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_odom) by extensions ['ignore', 'ignore_ament_install']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_odom) by extension 'ignore'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_odom) by extension 'ignore_ament_install'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_odom) by extensions ['colcon_pkg']
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_odom) by extension 'colcon_pkg'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_odom) by extensions ['colcon_meta']
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_odom) by extension 'colcon_meta'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_odom) by extensions ['ros']
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_odom) by extension 'ros'
+[1.111s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rtabmap_ros/rtabmap_odom' with type 'ros.ament_cmake' and name 'rtabmap_odom'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_python) by extensions ['ignore', 'ignore_ament_install']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_python) by extension 'ignore'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_python) by extension 'ignore_ament_install'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_python) by extensions ['colcon_pkg']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_python) by extension 'colcon_pkg'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_python) by extensions ['colcon_meta']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_python) by extension 'colcon_meta'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_python) by extensions ['ros']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_python) by extension 'ros'
+[1.112s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rtabmap_ros/rtabmap_python' with type 'ros.ament_python' and name 'rtabmap_python'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_ros) by extension 'ignore'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_ros) by extension 'ignore_ament_install'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_ros) by extensions ['colcon_pkg']
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_ros) by extension 'colcon_pkg'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_ros) by extensions ['colcon_meta']
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_ros) by extension 'colcon_meta'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_ros) by extensions ['ros']
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_ros) by extension 'ros'
+[1.113s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rtabmap_ros/rtabmap_ros' with type 'ros.ament_cmake' and name 'rtabmap_ros'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_rviz_plugins) by extensions ['ignore', 'ignore_ament_install']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_rviz_plugins) by extension 'ignore'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_rviz_plugins) by extension 'ignore_ament_install'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_rviz_plugins) by extensions ['colcon_pkg']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_rviz_plugins) by extension 'colcon_pkg'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_rviz_plugins) by extensions ['colcon_meta']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_rviz_plugins) by extension 'colcon_meta'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_rviz_plugins) by extensions ['ros']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_rviz_plugins) by extension 'ros'
+[1.114s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rtabmap_ros/rtabmap_rviz_plugins' with type 'ros.ament_cmake' and name 'rtabmap_rviz_plugins'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_slam) by extensions ['ignore', 'ignore_ament_install']
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_slam) by extension 'ignore'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_slam) by extension 'ignore_ament_install'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_slam) by extensions ['colcon_pkg']
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_slam) by extension 'colcon_pkg'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_slam) by extensions ['colcon_meta']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_slam) by extension 'colcon_meta'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_slam) by extensions ['ros']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_slam) by extension 'ros'
+[1.116s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rtabmap_ros/rtabmap_slam' with type 'ros.ament_cmake' and name 'rtabmap_slam'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_sync) by extensions ['ignore', 'ignore_ament_install']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_sync) by extension 'ignore'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_sync) by extension 'ignore_ament_install'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_sync) by extensions ['colcon_pkg']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_sync) by extension 'colcon_pkg'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_sync) by extensions ['colcon_meta']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_sync) by extension 'colcon_meta'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_sync) by extensions ['ros']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_sync) by extension 'ros'
+[1.117s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rtabmap_ros/rtabmap_sync' with type 'ros.ament_cmake' and name 'rtabmap_sync'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_util) by extensions ['ignore', 'ignore_ament_install']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_util) by extension 'ignore'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_util) by extension 'ignore_ament_install'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_util) by extensions ['colcon_pkg']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_util) by extension 'colcon_pkg'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_util) by extensions ['colcon_meta']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_util) by extension 'colcon_meta'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_util) by extensions ['ros']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_util) by extension 'ros'
+[1.119s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rtabmap_ros/rtabmap_util' with type 'ros.ament_cmake' and name 'rtabmap_util'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_viz) by extensions ['ignore', 'ignore_ament_install']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_viz) by extension 'ignore'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_viz) by extension 'ignore_ament_install'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_viz) by extensions ['colcon_pkg']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_viz) by extension 'colcon_pkg'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_viz) by extensions ['colcon_meta']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_viz) by extension 'colcon_meta'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_viz) by extensions ['ros']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros/rtabmap_viz) by extension 'ros'
+[1.121s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rtabmap_ros/rtabmap_viz' with type 'ros.ament_cmake' and name 'rtabmap_viz'
+[1.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.177s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 346 installed packages in /opt/ros/foxy
+[1.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.394s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_args' from command line to 'None'
+[1.395s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[1.395s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.395s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.395s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.395s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.395s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.395s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.395s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.395s] DEBUG:colcon.colcon_core.verb:Building package 'astra_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deepak/electronic_ws/build/astra_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deepak/electronic_ws/install/astra_camera_msgs', 'merge_install': False, 'path': '/home/deepak/electronic_ws/src/ros2_astra_camera/astra_camera_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.395s] Level 5:colcon.colcon_core.verb:set package 'backward_ros' build argument 'cmake_args' from command line to 'None'
+[1.395s] Level 5:colcon.colcon_core.verb:set package 'backward_ros' build argument 'cmake_target' from command line to 'None'
+[1.395s] Level 5:colcon.colcon_core.verb:set package 'backward_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.395s] Level 5:colcon.colcon_core.verb:set package 'backward_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.395s] Level 5:colcon.colcon_core.verb:set package 'backward_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.395s] Level 5:colcon.colcon_core.verb:set package 'backward_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.395s] Level 5:colcon.colcon_core.verb:set package 'backward_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.395s] Level 5:colcon.colcon_core.verb:set package 'backward_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.395s] Level 5:colcon.colcon_core.verb:set package 'backward_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.395s] DEBUG:colcon.colcon_core.verb:Building package 'backward_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deepak/electronic_ws/build/backward_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deepak/electronic_ws/install/backward_ros', 'merge_install': False, 'path': '/home/deepak/electronic_ws/src/backward_ros', 'symlink_install': True, 'test_result_base': None}
+[1.396s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_args' from command line to 'None'
+[1.396s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_target' from command line to 'None'
+[1.396s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.396s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.396s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.396s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.396s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.396s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.396s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.396s] DEBUG:colcon.colcon_core.verb:Building package 'lslidar_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deepak/electronic_ws/build/lslidar_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deepak/electronic_ws/install/lslidar_msgs', 'merge_install': False, 'path': '/home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.396s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'cmake_args' from command line to 'None'
+[1.396s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'cmake_target' from command line to 'None'
+[1.396s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.396s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'cmake_clean_cache' from command line to 'False'
+[1.396s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'cmake_clean_first' from command line to 'False'
+[1.396s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'cmake_force_configure' from command line to 'False'
+[1.396s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'ament_cmake_args' from command line to 'None'
+[1.396s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'catkin_cmake_args' from command line to 'None'
+[1.396s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.396s] DEBUG:colcon.colcon_core.verb:Building package 'rtabmap' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deepak/electronic_ws/build/rtabmap', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deepak/electronic_ws/install/rtabmap', 'merge_install': False, 'path': '/home/deepak/electronic_ws/src/rtabmap', 'symlink_install': True, 'test_result_base': None}
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_msgs' build argument 'cmake_args' from command line to 'None'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_msgs' build argument 'cmake_target' from command line to 'None'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.397s] DEBUG:colcon.colcon_core.verb:Building package 'rtabmap_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deepak/electronic_ws/build/rtabmap_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deepak/electronic_ws/install/rtabmap_msgs', 'merge_install': False, 'path': '/home/deepak/electronic_ws/src/rtabmap_ros/rtabmap_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_python' build argument 'cmake_args' from command line to 'None'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_python' build argument 'cmake_target' from command line to 'None'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_python' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_python' build argument 'cmake_clean_cache' from command line to 'False'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_python' build argument 'cmake_clean_first' from command line to 'False'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_python' build argument 'cmake_force_configure' from command line to 'False'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_python' build argument 'ament_cmake_args' from command line to 'None'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_python' build argument 'catkin_cmake_args' from command line to 'None'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_python' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.397s] DEBUG:colcon.colcon_core.verb:Building package 'rtabmap_python' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deepak/electronic_ws/build/rtabmap_python', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deepak/electronic_ws/install/rtabmap_python', 'merge_install': False, 'path': '/home/deepak/electronic_ws/src/rtabmap_ros/rtabmap_python', 'symlink_install': True, 'test_result_base': None}
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_args' from command line to 'None'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_target' from command line to 'None'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_clean_first' from command line to 'False'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_force_configure' from command line to 'False'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'ament_cmake_args' from command line to 'None'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.398s] DEBUG:colcon.colcon_core.verb:Building package 'astra_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deepak/electronic_ws/build/astra_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deepak/electronic_ws/install/astra_camera', 'merge_install': False, 'path': '/home/deepak/electronic_ws/src/ros2_astra_camera/astra_camera', 'symlink_install': True, 'test_result_base': None}
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_args' from command line to 'None'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_target' from command line to 'None'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.398s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.398s] DEBUG:colcon.colcon_core.verb:Building package 'lslidar_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deepak/electronic_ws/build/lslidar_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deepak/electronic_ws/install/lslidar_driver', 'merge_install': False, 'path': '/home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_driver', 'symlink_install': True, 'test_result_base': None}
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_conversions' build argument 'cmake_args' from command line to 'None'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_conversions' build argument 'cmake_target' from command line to 'None'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_conversions' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_conversions' build argument 'cmake_clean_cache' from command line to 'False'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_conversions' build argument 'cmake_clean_first' from command line to 'False'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_conversions' build argument 'cmake_force_configure' from command line to 'False'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_conversions' build argument 'ament_cmake_args' from command line to 'None'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_conversions' build argument 'catkin_cmake_args' from command line to 'None'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_conversions' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.399s] DEBUG:colcon.colcon_core.verb:Building package 'rtabmap_conversions' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deepak/electronic_ws/build/rtabmap_conversions', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deepak/electronic_ws/install/rtabmap_conversions', 'merge_install': False, 'path': '/home/deepak/electronic_ws/src/rtabmap_ros/rtabmap_conversions', 'symlink_install': True, 'test_result_base': None}
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_rviz_plugins' build argument 'cmake_args' from command line to 'None'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_rviz_plugins' build argument 'cmake_target' from command line to 'None'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_rviz_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_rviz_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_rviz_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_rviz_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_rviz_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_rviz_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[1.399s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_rviz_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.399s] DEBUG:colcon.colcon_core.verb:Building package 'rtabmap_rviz_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deepak/electronic_ws/build/rtabmap_rviz_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deepak/electronic_ws/install/rtabmap_rviz_plugins', 'merge_install': False, 'path': '/home/deepak/electronic_ws/src/rtabmap_ros/rtabmap_rviz_plugins', 'symlink_install': True, 'test_result_base': None}
+[1.400s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_sync' build argument 'cmake_args' from command line to 'None'
+[1.400s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_sync' build argument 'cmake_target' from command line to 'None'
+[1.400s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_sync' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.400s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_sync' build argument 'cmake_clean_cache' from command line to 'False'
+[1.400s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_sync' build argument 'cmake_clean_first' from command line to 'False'
+[1.400s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_sync' build argument 'cmake_force_configure' from command line to 'False'
+[1.400s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_sync' build argument 'ament_cmake_args' from command line to 'None'
+[1.400s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_sync' build argument 'catkin_cmake_args' from command line to 'None'
+[1.400s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_sync' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.400s] DEBUG:colcon.colcon_core.verb:Building package 'rtabmap_sync' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deepak/electronic_ws/build/rtabmap_sync', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deepak/electronic_ws/install/rtabmap_sync', 'merge_install': False, 'path': '/home/deepak/electronic_ws/src/rtabmap_ros/rtabmap_sync', 'symlink_install': True, 'test_result_base': None}
+[1.400s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_util' build argument 'cmake_args' from command line to 'None'
+[1.400s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_util' build argument 'cmake_target' from command line to 'None'
+[1.400s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_util' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.400s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_util' build argument 'cmake_clean_cache' from command line to 'False'
+[1.400s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_util' build argument 'cmake_clean_first' from command line to 'False'
+[1.400s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_util' build argument 'cmake_force_configure' from command line to 'False'
+[1.400s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_util' build argument 'ament_cmake_args' from command line to 'None'
+[1.400s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_util' build argument 'catkin_cmake_args' from command line to 'None'
+[1.400s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_util' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.400s] DEBUG:colcon.colcon_core.verb:Building package 'rtabmap_util' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deepak/electronic_ws/build/rtabmap_util', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deepak/electronic_ws/install/rtabmap_util', 'merge_install': False, 'path': '/home/deepak/electronic_ws/src/rtabmap_ros/rtabmap_util', 'symlink_install': True, 'test_result_base': None}
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_odom' build argument 'cmake_args' from command line to 'None'
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_odom' build argument 'cmake_target' from command line to 'None'
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_odom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_odom' build argument 'cmake_clean_cache' from command line to 'False'
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_odom' build argument 'cmake_clean_first' from command line to 'False'
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_odom' build argument 'cmake_force_configure' from command line to 'False'
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_odom' build argument 'ament_cmake_args' from command line to 'None'
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_odom' build argument 'catkin_cmake_args' from command line to 'None'
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_odom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.401s] DEBUG:colcon.colcon_core.verb:Building package 'rtabmap_odom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deepak/electronic_ws/build/rtabmap_odom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deepak/electronic_ws/install/rtabmap_odom', 'merge_install': False, 'path': '/home/deepak/electronic_ws/src/rtabmap_ros/rtabmap_odom', 'symlink_install': True, 'test_result_base': None}
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_slam' build argument 'cmake_args' from command line to 'None'
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_slam' build argument 'cmake_target' from command line to 'None'
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_slam' build argument 'cmake_clean_first' from command line to 'False'
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_slam' build argument 'cmake_force_configure' from command line to 'False'
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_slam' build argument 'ament_cmake_args' from command line to 'None'
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[1.401s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.401s] DEBUG:colcon.colcon_core.verb:Building package 'rtabmap_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deepak/electronic_ws/build/rtabmap_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deepak/electronic_ws/install/rtabmap_slam', 'merge_install': False, 'path': '/home/deepak/electronic_ws/src/rtabmap_ros/rtabmap_slam', 'symlink_install': True, 'test_result_base': None}
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_viz' build argument 'cmake_args' from command line to 'None'
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_viz' build argument 'cmake_target' from command line to 'None'
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_viz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_viz' build argument 'cmake_clean_cache' from command line to 'False'
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_viz' build argument 'cmake_clean_first' from command line to 'False'
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_viz' build argument 'cmake_force_configure' from command line to 'False'
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_viz' build argument 'ament_cmake_args' from command line to 'None'
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_viz' build argument 'catkin_cmake_args' from command line to 'None'
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_viz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.402s] DEBUG:colcon.colcon_core.verb:Building package 'rtabmap_viz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deepak/electronic_ws/build/rtabmap_viz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deepak/electronic_ws/install/rtabmap_viz', 'merge_install': False, 'path': '/home/deepak/electronic_ws/src/rtabmap_ros/rtabmap_viz', 'symlink_install': True, 'test_result_base': None}
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_demos' build argument 'cmake_args' from command line to 'None'
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_demos' build argument 'cmake_target' from command line to 'None'
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_demos' build argument 'cmake_clean_first' from command line to 'False'
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_demos' build argument 'cmake_force_configure' from command line to 'False'
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_demos' build argument 'ament_cmake_args' from command line to 'None'
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.402s] DEBUG:colcon.colcon_core.verb:Building package 'rtabmap_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deepak/electronic_ws/build/rtabmap_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deepak/electronic_ws/install/rtabmap_demos', 'merge_install': False, 'path': '/home/deepak/electronic_ws/src/rtabmap_ros/rtabmap_demos', 'symlink_install': True, 'test_result_base': None}
+[1.403s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_examples' build argument 'cmake_args' from command line to 'None'
+[1.403s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_examples' build argument 'cmake_target' from command line to 'None'
+[1.403s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.403s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[1.403s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_examples' build argument 'cmake_clean_first' from command line to 'False'
+[1.403s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_examples' build argument 'cmake_force_configure' from command line to 'False'
+[1.403s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_examples' build argument 'ament_cmake_args' from command line to 'None'
+[1.403s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[1.403s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.403s] DEBUG:colcon.colcon_core.verb:Building package 'rtabmap_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deepak/electronic_ws/build/rtabmap_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deepak/electronic_ws/install/rtabmap_examples', 'merge_install': False, 'path': '/home/deepak/electronic_ws/src/rtabmap_ros/rtabmap_examples', 'symlink_install': True, 'test_result_base': None}
+[1.403s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_launch' build argument 'cmake_args' from command line to 'None'
+[1.403s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_launch' build argument 'cmake_target' from command line to 'None'
+[1.403s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.403s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[1.403s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_launch' build argument 'cmake_clean_first' from command line to 'False'
+[1.403s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_launch' build argument 'cmake_force_configure' from command line to 'False'
+[1.403s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_launch' build argument 'ament_cmake_args' from command line to 'None'
+[1.403s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[1.403s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.403s] DEBUG:colcon.colcon_core.verb:Building package 'rtabmap_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deepak/electronic_ws/build/rtabmap_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deepak/electronic_ws/install/rtabmap_launch', 'merge_install': False, 'path': '/home/deepak/electronic_ws/src/rtabmap_ros/rtabmap_launch', 'symlink_install': True, 'test_result_base': None}
+[1.403s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ros' build argument 'cmake_args' from command line to 'None'
+[1.403s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ros' build argument 'cmake_target' from command line to 'None'
+[1.404s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.404s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.404s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.404s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.404s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.404s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.404s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.404s] DEBUG:colcon.colcon_core.verb:Building package 'rtabmap_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deepak/electronic_ws/build/rtabmap_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deepak/electronic_ws/install/rtabmap_ros', 'merge_install': False, 'path': '/home/deepak/electronic_ws/src/rtabmap_ros/rtabmap_ros', 'symlink_install': True, 'test_result_base': None}
+[1.404s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.405s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.406s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/deepak/electronic_ws/src/rtabmap' with build type 'cmake'
+[1.406s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/deepak/electronic_ws/src/rtabmap'
+[1.411s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.411s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.411s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.416s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/deepak/electronic_ws/src/rtabmap_ros/rtabmap_msgs' with build type 'catkin'
+[1.416s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/deepak/electronic_ws/src/rtabmap_ros/rtabmap_msgs'
+[1.416s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.416s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.421s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/deepak/electronic_ws/src/ros2_astra_camera/astra_camera_msgs' with build type 'ament_cmake'
+[1.421s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/deepak/electronic_ws/src/ros2_astra_camera/astra_camera_msgs'
+[1.422s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.422s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deepak/electronic_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/deepak/electronic_ws/src/rtabmap -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/rtabmap
+[1.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deepak/electronic_ws/build/rtabmap_msgs': /usr/bin/cmake /home/deepak/electronic_ws/src/rtabmap_ros/rtabmap_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/rtabmap_msgs
+[1.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deepak/electronic_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/deepak/electronic_ws/src/ros2_astra_camera/astra_camera_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/astra_camera_msgs
+[4.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deepak/electronic_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/deepak/electronic_ws/src/ros2_astra_camera/astra_camera_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/astra_camera_msgs
+[4.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deepak/electronic_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/deepak/electronic_ws/build/astra_camera_msgs -- -j8 -l8
+[4.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deepak/electronic_ws/build/rtabmap_msgs' returned '0': /usr/bin/cmake /home/deepak/electronic_ws/src/rtabmap_ros/rtabmap_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/rtabmap_msgs
+[4.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deepak/electronic_ws/build/rtabmap_msgs': /usr/bin/cmake --build /home/deepak/electronic_ws/build/rtabmap_msgs -- -j8 -l8
+[5.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deepak/electronic_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/deepak/electronic_ws/src/rtabmap -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/rtabmap
+[5.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deepak/electronic_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/deepak/electronic_ws/build/rtabmap -- -j8 -l8
+[25.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deepak/electronic_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/deepak/electronic_ws/build/astra_camera_msgs -- -j8 -l8
+[25.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deepak/electronic_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/deepak/electronic_ws/build/astra_camera_msgs
+[35.069s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astra_camera_msgs)
+[35.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deepak/electronic_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/deepak/electronic_ws/build/astra_camera_msgs
+[35.080s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/astra_camera_msgs' for CMake module files
+[35.081s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/astra_camera_msgs' for CMake config files
+[35.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'cmake_prefix_path')
+[35.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.ps1'
+[35.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.dsv'
+[35.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.sh'
+[35.092s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/astra_camera_msgs/lib'
+[35.092s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'ld_library_path_lib')
+[35.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.ps1'
+[35.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.dsv'
+[35.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.sh'
+[35.095s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/astra_camera_msgs/bin'
+[35.095s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/astra_camera_msgs/lib/pkgconfig/astra_camera_msgs.pc'
+[35.095s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/astra_camera_msgs/lib/python3.8/site-packages'
+[35.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'pythonpath')
+[35.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/pythonpath.ps1'
+[35.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/pythonpath.dsv'
+[35.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/pythonpath.sh'
+[35.098s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/astra_camera_msgs/bin'
+[35.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.ps1'
+[35.103s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv'
+[35.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.sh'
+[35.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.bash'
+[35.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.zsh'
+[35.125s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deepak/electronic_ws/install/astra_camera_msgs/share/colcon-core/packages/astra_camera_msgs)
+[35.127s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astra_camera_msgs)
+[35.127s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/astra_camera_msgs' for CMake module files
+[35.128s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/astra_camera_msgs' for CMake config files
+[35.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'cmake_prefix_path')
+[35.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.ps1'
+[35.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.dsv'
+[35.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.sh'
+[35.136s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/astra_camera_msgs/lib'
+[35.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'ld_library_path_lib')
+[35.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.ps1'
+[35.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.dsv'
+[35.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.sh'
+[35.148s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/astra_camera_msgs/bin'
+[35.148s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/astra_camera_msgs/lib/pkgconfig/astra_camera_msgs.pc'
+[35.148s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/astra_camera_msgs/lib/python3.8/site-packages'
+[35.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'pythonpath')
+[35.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/pythonpath.ps1'
+[35.149s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/pythonpath.dsv'
+[35.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/pythonpath.sh'
+[35.151s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/astra_camera_msgs/bin'
+[35.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.ps1'
+[35.154s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv'
+[35.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.sh'
+[35.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.bash'
+[35.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.zsh'
+[35.157s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deepak/electronic_ws/install/astra_camera_msgs/share/colcon-core/packages/astra_camera_msgs)
+[35.158s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs' with build type 'ament_cmake'
+[35.159s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs'
+[35.159s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[35.159s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[35.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deepak/electronic_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/lslidar_msgs
+[39.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deepak/electronic_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/lslidar_msgs
+[39.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deepak/electronic_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/deepak/electronic_ws/build/lslidar_msgs -- -j8 -l8
+[77.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deepak/electronic_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/deepak/electronic_ws/build/lslidar_msgs -- -j8 -l8
+[77.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deepak/electronic_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/deepak/electronic_ws/build/lslidar_msgs
+[79.963s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_msgs)
+[79.964s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/lslidar_msgs' for CMake module files
+[79.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deepak/electronic_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/deepak/electronic_ws/build/lslidar_msgs
+[79.965s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/lslidar_msgs' for CMake config files
+[79.965s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'cmake_prefix_path')
+[79.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.ps1'
+[79.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.dsv'
+[79.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.sh'
+[79.967s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/lslidar_msgs/lib'
+[79.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'ld_library_path_lib')
+[79.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.ps1'
+[79.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.dsv'
+[79.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.sh'
+[79.968s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/lslidar_msgs/bin'
+[79.968s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/lslidar_msgs/lib/pkgconfig/lslidar_msgs.pc'
+[79.968s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/lslidar_msgs/lib/python3.8/site-packages'
+[79.968s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'pythonpath')
+[79.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/hook/pythonpath.ps1'
+[79.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/hook/pythonpath.dsv'
+[79.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/hook/pythonpath.sh'
+[79.970s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/lslidar_msgs/bin'
+[79.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/package.ps1'
+[79.970s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/package.dsv'
+[79.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/package.sh'
+[79.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/package.bash'
+[79.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/package.zsh'
+[79.972s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deepak/electronic_ws/install/lslidar_msgs/share/colcon-core/packages/lslidar_msgs)
+[79.973s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_msgs)
+[79.973s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/lslidar_msgs' for CMake module files
+[79.973s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/lslidar_msgs' for CMake config files
+[79.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'cmake_prefix_path')
+[79.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.ps1'
+[79.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.dsv'
+[79.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.sh'
+[79.975s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/lslidar_msgs/lib'
+[79.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'ld_library_path_lib')
+[79.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.ps1'
+[79.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.dsv'
+[79.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.sh'
+[79.976s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/lslidar_msgs/bin'
+[79.976s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/lslidar_msgs/lib/pkgconfig/lslidar_msgs.pc'
+[79.976s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/lslidar_msgs/lib/python3.8/site-packages'
+[79.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'pythonpath')
+[79.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/hook/pythonpath.ps1'
+[79.977s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/hook/pythonpath.dsv'
+[79.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/hook/pythonpath.sh'
+[79.978s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/lslidar_msgs/bin'
+[79.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/package.ps1'
+[79.979s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/package.dsv'
+[79.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/package.sh'
+[79.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/package.bash'
+[79.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/lslidar_msgs/share/lslidar_msgs/package.zsh'
+[79.980s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deepak/electronic_ws/install/lslidar_msgs/share/colcon-core/packages/lslidar_msgs)
+[79.980s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/deepak/electronic_ws/src/rtabmap_ros/rtabmap_python' with build type 'ament_python'
+[79.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap_python', 'ament_prefix_path')
+[79.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/rtabmap_python/share/rtabmap_python/hook/ament_prefix_path.ps1'
+[79.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/install/rtabmap_python/share/rtabmap_python/hook/ament_prefix_path.dsv'
+[79.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/rtabmap_python/share/rtabmap_python/hook/ament_prefix_path.sh'
+[79.982s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[79.982s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[80.206s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/deepak/electronic_ws/src/rtabmap_ros/rtabmap_python'
+[80.207s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[80.207s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[80.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deepak/electronic_ws/build/rtabmap_msgs' returned '0': /usr/bin/cmake --build /home/deepak/electronic_ws/build/rtabmap_msgs -- -j8 -l8
+[80.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deepak/electronic_ws/build/rtabmap_msgs': /usr/bin/cmake --install /home/deepak/electronic_ws/build/rtabmap_msgs
+[80.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deepak/electronic_ws/build/rtabmap_msgs' returned '0': /usr/bin/cmake --install /home/deepak/electronic_ws/build/rtabmap_msgs
+[80.366s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap_msgs', 'ros_package_path')
+[80.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/hook/ros_package_path.ps1'
+[80.367s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/hook/ros_package_path.dsv'
+[80.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/hook/ros_package_path.sh'
+[80.368s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/deepak/electronic_ws/install/rtabmap_msgs/lib/python3.8/site-packages'
+[80.368s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap_msgs', 'catkin_pythonpath')
+[80.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/hook/catkin_pythonpath.ps1'
+[80.368s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/hook/catkin_pythonpath.dsv'
+[80.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/hook/catkin_pythonpath.sh'
+[80.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap_msgs', 'pkg_config_path')
+[80.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/hook/pkg_config_path.ps1'
+[80.369s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/hook/pkg_config_path.dsv'
+[80.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/hook/pkg_config_path.sh'
+[80.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap_msgs', 'pkg_config_path_multiarch')
+[80.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/hook/pkg_config_path_multiarch.ps1'
+[80.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/hook/pkg_config_path_multiarch.dsv'
+[80.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/hook/pkg_config_path_multiarch.sh'
+[80.376s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rtabmap_msgs)
+[80.376s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/rtabmap_msgs' for CMake module files
+[80.377s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/rtabmap_msgs' for CMake config files
+[80.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap_msgs', 'cmake_prefix_path')
+[80.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/hook/cmake_prefix_path.ps1'
+[80.377s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/hook/cmake_prefix_path.dsv'
+[80.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/hook/cmake_prefix_path.sh'
+[80.378s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/rtabmap_msgs/lib'
+[80.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap_msgs', 'ld_library_path_lib')
+[80.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/hook/ld_library_path_lib.ps1'
+[80.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/hook/ld_library_path_lib.dsv'
+[80.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/hook/ld_library_path_lib.sh'
+[80.379s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/rtabmap_msgs/bin'
+[80.379s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/rtabmap_msgs/lib/pkgconfig/rtabmap_msgs.pc'
+[80.380s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/rtabmap_msgs/lib/python3.8/site-packages'
+[80.380s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap_msgs', 'pythonpath')
+[80.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/hook/pythonpath.ps1'
+[80.380s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/hook/pythonpath.dsv'
+[80.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/hook/pythonpath.sh'
+[80.381s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/rtabmap_msgs/bin'
+[80.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/package.ps1'
+[80.382s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/package.dsv'
+[80.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/package.sh'
+[80.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/package.bash'
+[80.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/rtabmap_msgs/share/rtabmap_msgs/package.zsh'
+[80.384s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deepak/electronic_ws/install/rtabmap_msgs/share/colcon-core/packages/rtabmap_msgs)
+[80.384s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/deepak/electronic_ws/src/backward_ros' with build type 'cmake'
+[80.385s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/deepak/electronic_ws/src/backward_ros'
+[80.385s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[80.385s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[80.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deepak/electronic_ws/build/backward_ros': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/deepak/electronic_ws/src/backward_ros -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/backward_ros
+[80.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deepak/electronic_ws/build/rtabmap_python': PYTHONPATH=/home/deepak/electronic_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/electronic_ws/install/rtabmap_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/deepak/electronic_ws/build/rtabmap_python/build --no-deps symlink_data
+[80.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deepak/electronic_ws/build/backward_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/deepak/electronic_ws/src/backward_ros -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/backward_ros
+[80.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deepak/electronic_ws/build/backward_ros': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/deepak/electronic_ws/build/backward_ros -- -j8 -l8
+[81.360s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap_python', 'pythonpath_develop')
+[81.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/build/rtabmap_python/share/rtabmap_python/hook/pythonpath_develop.ps1'
+[81.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deepak/electronic_ws/build/rtabmap_python' returned '0': PYTHONPATH=/home/deepak/electronic_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/electronic_ws/install/rtabmap_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/deepak/electronic_ws/build/rtabmap_python/build --no-deps symlink_data
+[81.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/build/rtabmap_python/share/rtabmap_python/hook/pythonpath_develop.dsv'
+[81.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/build/rtabmap_python/share/rtabmap_python/hook/pythonpath_develop.sh'
+[81.364s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/rtabmap_python' for CMake module files
+[81.365s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/rtabmap_python' for CMake config files
+[81.366s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/rtabmap_python/lib'
+[81.366s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/rtabmap_python/bin'
+[81.366s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/rtabmap_python/lib/pkgconfig/rtabmap_python.pc'
+[81.366s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/rtabmap_python/lib/python3.8/site-packages'
+[81.366s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap_python', 'pythonpath')
+[81.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/rtabmap_python/share/rtabmap_python/hook/pythonpath.ps1'
+[81.367s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/install/rtabmap_python/share/rtabmap_python/hook/pythonpath.dsv'
+[81.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/rtabmap_python/share/rtabmap_python/hook/pythonpath.sh'
+[81.369s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/rtabmap_python/bin'
+[81.369s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rtabmap_python)
+[81.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/rtabmap_python/share/rtabmap_python/package.ps1'
+[81.371s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deepak/electronic_ws/install/rtabmap_python/share/rtabmap_python/package.dsv'
+[81.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/rtabmap_python/share/rtabmap_python/package.sh'
+[81.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/rtabmap_python/share/rtabmap_python/package.bash'
+[81.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/rtabmap_python/share/rtabmap_python/package.zsh'
+[81.373s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deepak/electronic_ws/install/rtabmap_python/share/colcon-core/packages/rtabmap_python)
+[81.374s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/deepak/electronic_ws/src/ros2_astra_camera/astra_camera' with build type 'ament_cmake'
+[81.374s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/deepak/electronic_ws/src/ros2_astra_camera/astra_camera'
+[81.375s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[81.375s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[81.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deepak/electronic_ws/build/astra_camera': AMENT_PREFIX_PATH=/home/deepak/electronic_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/electronic_ws/install/astra_camera_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/deepak/electronic_ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deepak/electronic_ws/install/astra_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/deepak/electronic_ws/src/ros2_astra_camera/astra_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/astra_camera
+[82.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deepak/electronic_ws/build/backward_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/deepak/electronic_ws/build/backward_ros -- -j8 -l8
+[82.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deepak/electronic_ws/build/backward_ros': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/deepak/electronic_ws/build/backward_ros
+[82.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('backward_ros', 'pkg_config_path')
+[82.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/backward_ros/share/backward_ros/hook/pkg_config_path.ps1'
+[82.865s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/install/backward_ros/share/backward_ros/hook/pkg_config_path.dsv'
+[82.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/backward_ros/share/backward_ros/hook/pkg_config_path.sh'
+[82.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('backward_ros', 'pkg_config_path_multiarch')
+[82.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/backward_ros/share/backward_ros/hook/pkg_config_path_multiarch.ps1'
+[82.867s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/install/backward_ros/share/backward_ros/hook/pkg_config_path_multiarch.dsv'
+[82.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/backward_ros/share/backward_ros/hook/pkg_config_path_multiarch.sh'
+[82.868s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(backward_ros)
+[82.869s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/backward_ros' for CMake module files
+[82.869s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/backward_ros' for CMake config files
+[82.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('backward_ros', 'cmake_prefix_path')
+[82.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/backward_ros/share/backward_ros/hook/cmake_prefix_path.ps1'
+[82.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/install/backward_ros/share/backward_ros/hook/cmake_prefix_path.dsv'
+[82.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/backward_ros/share/backward_ros/hook/cmake_prefix_path.sh'
+[82.872s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/backward_ros/lib'
+[82.872s] Level 1:colcon.colcon_core.shell:create_environment_hook('backward_ros', 'ld_library_path_lib')
+[82.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/backward_ros/share/backward_ros/hook/ld_library_path_lib.ps1'
+[82.872s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deepak/electronic_ws/install/backward_ros/share/backward_ros/hook/ld_library_path_lib.dsv'
+[82.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deepak/electronic_ws/install/backward_ros/share/backward_ros/hook/ld_library_path_lib.sh'
+[82.873s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/backward_ros/bin'
+[82.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deepak/electronic_ws/build/backward_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/deepak/electronic_ws/build/backward_ros
+[82.874s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/backward_ros/lib/pkgconfig/backward_ros.pc'
+[82.875s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/backward_ros/lib/python3.8/site-packages'
+[82.875s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/backward_ros/bin'
+[82.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/backward_ros/share/backward_ros/package.ps1'
+[82.877s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deepak/electronic_ws/install/backward_ros/share/backward_ros/package.dsv'
+[82.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/backward_ros/share/backward_ros/package.sh'
+[82.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/backward_ros/share/backward_ros/package.bash'
+[82.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/backward_ros/share/backward_ros/package.zsh'
+[82.879s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deepak/electronic_ws/install/backward_ros/share/colcon-core/packages/backward_ros)
+[82.880s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_driver' with build type 'ament_cmake'
+[82.881s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_driver'
+[82.881s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[82.881s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[82.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deepak/electronic_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/deepak/electronic_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/electronic_ws/install/lslidar_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/deepak/electronic_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deepak/electronic_ws/install/lslidar_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/lslidar_driver
+[86.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deepak/electronic_ws/build/astra_camera' returned '1': AMENT_PREFIX_PATH=/home/deepak/electronic_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/electronic_ws/install/astra_camera_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/deepak/electronic_ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deepak/electronic_ws/install/astra_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/deepak/electronic_ws/src/ros2_astra_camera/astra_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/astra_camera
+[86.056s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astra_camera)
+[86.057s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/astra_camera' for CMake module files
+[86.058s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/astra_camera' for CMake config files
+[86.058s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/astra_camera/bin'
+[86.058s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/astra_camera/lib/pkgconfig/astra_camera.pc'
+[86.059s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/astra_camera/lib/python3.8/site-packages'
+[86.059s] Level 1:colcon.colcon_core.environment:checking '/home/deepak/electronic_ws/install/astra_camera/bin'
+[86.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/astra_camera/share/astra_camera/package.ps1'
+[86.060s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deepak/electronic_ws/install/astra_camera/share/astra_camera/package.dsv'
+[86.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/astra_camera/share/astra_camera/package.sh'
+[86.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/astra_camera/share/astra_camera/package.bash'
+[86.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/deepak/electronic_ws/install/astra_camera/share/astra_camera/package.zsh'
+[86.062s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deepak/electronic_ws/install/astra_camera/share/colcon-core/packages/astra_camera)
+[560.478s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[560.521s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[560.522s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[560.525s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[560.737s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[560.737s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[560.738s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[561.034s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[561.047s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/deepak/electronic_ws/install/local_setup.ps1'
+[561.070s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/deepak/electronic_ws/install/_local_setup_util_ps1.py'
+[561.076s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/deepak/electronic_ws/install/setup.ps1'
+[561.081s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/deepak/electronic_ws/install/local_setup.sh'
+[561.082s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/deepak/electronic_ws/install/_local_setup_util_sh.py'
+[561.082s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/deepak/electronic_ws/install/setup.sh'
+[561.084s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/deepak/electronic_ws/install/local_setup.bash'
+[561.087s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/deepak/electronic_ws/install/setup.bash'
+[561.088s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/deepak/electronic_ws/install/local_setup.zsh'
+[561.091s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/deepak/electronic_ws/install/setup.zsh'

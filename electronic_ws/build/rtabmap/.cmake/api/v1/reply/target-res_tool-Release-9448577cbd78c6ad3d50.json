@@ -1,0 +1,308 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/rtabmap-res_tool"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_EXECUTABLE",
+			"INSTALL",
+			"TARGET_LINK_LIBRARIES",
+			"add_definitions",
+			"ADD_DEFINITIONS",
+			"find_package",
+			"find_qhull",
+			"find_external_library",
+			"FIND_PACKAGE",
+			"set_property",
+			"include",
+			"include_directories",
+			"INCLUDE_DIRECTORIES"
+		],
+		"files" : 
+		[
+			"utilite/resource_generator/CMakeLists.txt",
+			"CMakeLists.txt",
+			"utilite/CMakeLists.txt",
+			"/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindQhull.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake",
+			"/usr/lib/cmake/vtk-7.1/UseVTK.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 276,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 381,
+				"parent" : 4
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 2,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 358,
+				"parent" : 4
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 234,
+				"parent" : 4
+			},
+			{
+				"file" : 4,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 548,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 320,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 165,
+				"parent" : 13
+			},
+			{
+				"file" : 3,
+				"parent" : 14
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 88,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 548,
+				"parent" : 11
+			},
+			{
+				"command" : 10,
+				"file" : 4,
+				"line" : 351,
+				"parent" : 17
+			},
+			{
+				"file" : 5,
+				"parent" : 18
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 23,
+				"parent" : 19
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 26,
+				"parent" : 19
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -fmessage-length=0  -fopenmp -std=c++14 -O3 -DNDEBUG   -Wall -Wtype-limits -Wno-unknown-pragmas"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "PCL_OMP"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_NO_KEYWORDS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "UTILITE_VERSION=\"0.3.0\""
+				},
+				{
+					"backtrace" : 9,
+					"define" : "VTK_OPENGL2"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "qh_QHpointer"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "vtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 21,
+					"path" : "/usr/include/vtk-7.1"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/usr/include/freetype2"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/home/deepak/electronic_ws/src/rtabmap/utilite/resource_generator/../include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/deepak/electronic_ws/src/rtabmap/utilite/src/../include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/deepak/electronic_ws/build/rtabmap/utilite/src/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "rtabmap_utilite::@fe96aa591f1972fd2d08"
+		}
+	],
+	"id" : "res_tool::@f28c1250daa1d4664e10",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/deepak/electronic_ws/install/rtabmap"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fmessage-length=0  -fopenmp -std=c++14 -O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/deepak/electronic_ws/build/rtabmap/bin:",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../bin/librtabmap_utilite.so.0.23.3",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "res_tool",
+	"nameOnDisk" : "rtabmap-res_tool",
+	"paths" : 
+	{
+		"build" : "utilite/resource_generator",
+		"source" : "utilite/resource_generator"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "utilite/resource_generator/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

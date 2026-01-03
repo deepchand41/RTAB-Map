@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/deepak/electronic_ws/build/lslidar_msgs/rosidl_generator_py/lslidar_msgs/liblslidar_msgs__python.so" "TARGETS" "lslidar_msgs__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

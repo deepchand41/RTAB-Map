@@ -1,0 +1,6 @@
+Invoking command in '/home/deepak/electronic_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/lslidar_msgs
+Invoked command in '/home/deepak/electronic_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/deepak/electronic_ws/src/Lslidar_ROS2_driver-LS-S1_V1.0/lslidar_msgs -DCMAKE_INSTALL_PREFIX=/home/deepak/electronic_ws/install/lslidar_msgs
+Invoking command in '/home/deepak/electronic_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/deepak/electronic_ws/build/lslidar_msgs -- -j8 -l8
+Invoked command in '/home/deepak/electronic_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/deepak/electronic_ws/build/lslidar_msgs -- -j8 -l8
+Invoking command in '/home/deepak/electronic_ws/build/lslidar_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/deepak/electronic_ws/build/lslidar_msgs
+Invoked command in '/home/deepak/electronic_ws/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/deepak/electronic_ws/build/lslidar_msgs

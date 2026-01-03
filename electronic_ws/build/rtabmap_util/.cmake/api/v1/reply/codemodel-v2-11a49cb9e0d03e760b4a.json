@@ -1,0 +1,159 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rtabmap_util",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_lidar_deskewing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_lidar_deskewing-59ff2e7d20f8d4f00dd0.json",
+					"name" : "rtabmap_lidar_deskewing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_obstacles_detection::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_obstacles_detection-5842939d86d683028984.json",
+					"name" : "rtabmap_obstacles_detection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_point_cloud_aggregator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_point_cloud_aggregator-b9a41430ddf97fd6965c.json",
+					"name" : "rtabmap_point_cloud_aggregator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_point_cloud_assembler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_point_cloud_assembler-aa9150ebed53197b9352.json",
+					"name" : "rtabmap_point_cloud_assembler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_point_cloud_xyz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_point_cloud_xyz-1a9928539bfa00fae954.json",
+					"name" : "rtabmap_point_cloud_xyz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_point_cloud_xyzrgb::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_point_cloud_xyzrgb-9a88a195c6a4d3feb0e4.json",
+					"name" : "rtabmap_point_cloud_xyzrgb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_pointcloud_to_depthimage::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_pointcloud_to_depthimage-3011a0a7db0d1457cfa3.json",
+					"name" : "rtabmap_pointcloud_to_depthimage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_rgbd_relay::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_rgbd_relay-bde83a329e91dd0dedc6.json",
+					"name" : "rtabmap_rgbd_relay",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_rgbd_split::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_rgbd_split-4e3e2eb8d6106f2cb5b3.json",
+					"name" : "rtabmap_rgbd_split",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_util_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_util_plugins-945f8e9e36752967ea4e.json",
+					"name" : "rtabmap_util_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_util_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_util_uninstall-47d5fb1b94949af3237d.json",
+					"name" : "rtabmap_util_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-796c81c950189224f2ff.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/deepak/electronic_ws/build/rtabmap_util",
+		"source" : "/home/deepak/electronic_ws/src/rtabmap_ros/rtabmap_util"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
