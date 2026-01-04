@@ -32,29 +32,43 @@ RTAB_MAP/
 ├── rviz/                # RViz configurations
 ├── README.md
 └── .gitignore
-
+```
 🔧 Installation
 1️⃣ Install ROS 2 Foxy
+```text
 sudo apt update
 sudo apt install ros-foxy-desktop
 
 source /opt/ros/foxy/setup.bash
-
+```
 2️⃣ Install RTAB-Map
-
+```text
 sudo apt install ros-foxy-rtabmap-ros
-
+```
 Verify:
+```text
 ros2 pkg list | grep rtabmap
+```
 
 3️⃣ Install Astra Pro Drivers
-
+```text
 sudo apt install ros-foxy-astra-camera
-
----
 ```
 ## 🚀 Running RTAB-Map with Astra Pro
 
+Add USB permissions:
+```text
+sudo usermod -a -G plugdev $USER
+```
+🔁 Reboot the system after this step.
+
+🏗️ Build the Workspace
+
+```text
+cd ~/electronic_ws
+colcon build --symlink-install
+source install/setup.bash
+```
 
 Step 1: Launch Astra Pro Camera
 ```text
@@ -98,6 +112,40 @@ ros2 launch rtabmap_launch rtabmap.launch.py \
 # Ensure camera publishes TF at high rate
 ros2 param set /camera/camera publish_tf true
 ros2 param set /camera/camera tf_publish_rate 30.0
+```
+
+🖥️ Step 3: Visualization in RViz2
+
+```text
+rviz2
+```
+
+Add Displays
+- Map → /map
+- PointCloud2 → /rtabmap/cloud_map
+- TF
+- Odometry → /odom
+- Image → /camera/color/image_raw
+
+Set Fixed Frame:
+```text
+map
+```
+
+💾 Step 4: Save the Map
+```text
+ros2 service call /rtabmap/save_map std_srvs/srv/Empty {}
+```
+Saved database:
+```text
+~/.ros/rtabmap.db
+```
+
+🔁 Step 5: Localization Mode (Using Saved Map)
+```text
+ros2 launch rtabmap_ros rtabmap.launch.py \
+  localization:=true \
+  database_path:=~/.ros/rtabmap.db
 ```
 
 ## Key Improvements Made
