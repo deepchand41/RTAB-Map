@@ -172,3 +172,15 @@ approx_sync_max_interval:=0.03    # More sync tolerance
 ```
 
 More features = better loop closure detection
+
+📚 References
+- RTAB-Map Wiki
+- Orbbec Astra ROS Documentation
+- ROS 2 Foxy Tutorials
+
+👤 Author
+Deepak
+MSc Electronic & Robotics Engineering
+ROS 2 | RTAB-Map | SLAM
+
+⭐ If you find this repository useful, please star it!
