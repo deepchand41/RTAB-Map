@@ -173,6 +173,8 @@ approx_sync_max_interval:=0.03    # More sync tolerance
 
 More features = better loop closure detection
 
+![RTABMap Demo](assets/3D_view-ezgif.com-optimize.gif)
+
 📚 References
 - RTAB-Map Wiki
 - Orbbec Astra ROS Documentation
