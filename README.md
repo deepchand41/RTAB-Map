@@ -184,3 +184,7 @@ MSc Electronic & Robotics Engineering
 ROS 2 | RTAB-Map | SLAM
 
 ⭐ If you find this repository useful, please star it!
+
+[▶️ Watch Presentation Video]
+([DivHxa4SbTsYYd9qj2FN2tGbqF/view?usp=sharing)](https://drive.google.com/file/d/1zC37HhDivHxa4SbTsYYd9qj2FN2tGbqF/view?usp=sharing))
+
